@@ -19,7 +19,8 @@ public class BinarySearch {
         
         while(a < b){
             // middle point of the array
-            int m = (a + b)/2;
+            //int m = (a + b)/2; stalk overflow
+            int m = a + (b-a)/2;
             // a == b ==> m = a and m = b
             /*if(a == b ) return -1
             * */
