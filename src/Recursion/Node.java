@@ -5,32 +5,35 @@ public class Node {
     private final int value;
     //
     private Node next;
-
+    
     //construtor
-    public Node(int value){
+    public Node(int value) {
         this.value = value;
         this.next = null;
     }
+    
     //can not change the value;
-    public int getValue(){
+    private int getValue() {
         return value;
     }
-    public Node getNext(){
+    
+    public Node getNext() {
         return next;
     }
-    public void setNext(Node next){
+    
+    public void setNext(Node next) {
         this.next = next;
     }
-
-    public static void printLinkedList (Node head){
-        while(head != null){
+    
+    public static void printLinkedList(Node head) {
+        while (head != null) {
             System.out.print(head.getValue());
             System.out.print(" ");
             head = head.getNext();
         }
-
+        
         System.out.println();
-
+        
     }
-
+    
 }
