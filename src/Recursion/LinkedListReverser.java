@@ -31,11 +31,11 @@ public class LinkedListReverser {
         //reverse a linked list
         LinkedListReverser reverser= new LinkedListReverser();
 
-        //create a empty list
+    /*    //create a empty list
         Node.printLinkedList(reverser.reverseLinkedList(creator.createLinkedList((new ArrayList<>()))));
         //create a list has 1 element
         Node.printLinkedList(reverser.reverseLinkedList(creator.createLinkedList(Arrays.asList(1))));
-        //create a list has a few elements
+*/        //create a list has a few elements
         Node.printLinkedList(reverser.reverseLinkedList(creator.createLinkedList(Arrays.asList(1,2,3,4,5))));
 
 
