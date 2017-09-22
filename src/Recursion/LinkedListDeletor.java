@@ -8,13 +8,18 @@ import java.util.*;
 public class LinkedListDeletor {
     
     public Node deleteIfEquals(Node head, int value){
+        /*if(head == null){
+            return null;
+        }*/
+        /*if(head.getValue() == value){
+            head = head.getNext();
+        }*/
+        while(head != null && head.getValue() == value){
+            head = head.getNext();
+        }
         if(head == null){
             return null;
         }
-        if(head.getValue() == value){
-            head = head.getNext();
-        }
-        
         Node prev = head;
         //Loop invariant: list nodes from head up to prev has been processed.
         //Nodes with values equal to value are deleted
@@ -35,8 +40,16 @@ public class LinkedListDeletor {
         //reverse a linked list
         LinkedListDeletor deletor = new LinkedListDeletor();
     
-         Node.printLinkedList(deletor.deleteIfEquals(creator.createLinkedList(Arrays.asList(1, 2, 3, 2, 4,2, 5,7)),2));
+        Node.printLinkedList(deletor.deleteIfEquals(creator.createLinkedList(Arrays.asList(1, 2, 3, 2, 5,2)),2));
+        Node.printLinkedList(deletor.deleteIfEquals(creator.createLinkedList(Arrays.asList(1, 2, 3, 2, 2)),2));
+        Node.printLinkedList(deletor.deleteIfEquals(creator.createLinkedList(Arrays.asList(1, 2, 3, 2, 2, 5,7,2)),2));
+        //problem statement
+        Node.printLinkedList(deletor.deleteIfEquals(creator.createLinkedList(Arrays.asList(2, 2, 3, 2)),2));
     
+        Node.printLinkedList(deletor.deleteIfEquals(creator.createLinkedList(Arrays.asList(2, 2, 2, 2)),2));
+        Node.printLinkedList(deletor.deleteIfEquals(creator.createLinkedList(Arrays.asList(2)),2));
+        Node.printLinkedList(deletor.deleteIfEquals(creator.createLinkedList(Arrays.asList(2)),1));
+        Node.printLinkedList(deletor.deleteIfEquals(creator.createLinkedList(new ArrayList<>()),1));
     
     
     }
