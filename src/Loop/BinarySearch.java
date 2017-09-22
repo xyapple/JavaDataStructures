@@ -48,5 +48,7 @@ public class BinarySearch {
         System.out.println(searchArray.binarySearch(new int[]{12},15));
         System.out.println(searchArray.binarySearch(new int[]{15},15));
         System.out.println("===========");
+        System.out.println(searchArray.binarySearch(new int[]{12, 15},15));
+        System.out.println(searchArray.binarySearch(new int[]{12, 15},12));
     }
 }
