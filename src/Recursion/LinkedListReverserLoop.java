@@ -1,7 +1,5 @@
 package Recursion;
 
-
-
 import java.util.Arrays;
 
 class LinkedListReverserLoop {
@@ -23,13 +21,17 @@ class LinkedListReverserLoop {
         //Loop invariant holds
         return newHead;
     }
+
     
     public static void main(String[] args) {
         //create a linked list
         LinkedListCreator creator = new LinkedListCreator();
         LinkedListReverserLoop reverserLoop = new LinkedListReverserLoop();
        Node.printLinkedList(reverserLoop.reverseLinkedList(creator.createLinkedList(Arrays.asList(1, 2, 3, 4, 5))));
+       
+        reverserLoop.reverseLinkedList(creator.createLargeLinkedList(1000000));
     
+        System.out.println("Done");
     }
     
     
