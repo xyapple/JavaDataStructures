@@ -1,5 +1,7 @@
 package JavaOOP;
 
+import JavaOOP.second.telphone.Telphone;
+
 public class InitailTelphone {
     // 定义静态变量phonePrice1
     static int phonePrice1 = 86;
@@ -15,12 +17,15 @@ public class InitailTelphone {
     //make a static
     static String name ="phone number 1";
     public static void main(String[] args) {
-        Telphone phone = new Telphone();
-        Telphone phone2 = new Telphone(5.0f,1.4f,2.f);
-        System.out.println("phone's name: "+name);
+        JavaOOP.second.telphone.Telphone phone = new Telphone();
+        System.out.println(phone);
+        
+/*        JavaOOP.Telphone phone2 = new Telphone(5.0f,1.4f,2.f);
+        
+        System.out.println("phone1 info : "+"size "+phone2.getScreenSize()+"cpu "+phone2.getCpu()+"made "+phone2.getMade());
         
         int totalPriceOfphone = sum();
-        System.out.println("Total prices for the two phones "+totalPriceOfphone);
+        System.out.println("Total prices for the two phones "+totalPriceOfphone);*/
     }
     
 }
