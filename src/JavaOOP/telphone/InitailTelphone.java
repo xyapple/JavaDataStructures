@@ -1,4 +1,4 @@
-package JavaOOP;
+package JavaOOP.telphone;
 
 import JavaOOP.second.telphone.Telphone;
 
