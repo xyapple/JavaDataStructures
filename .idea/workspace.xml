@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1ccff9-3b15-4e69-a3d8-c14a1ab0aa38" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaOOP/catcherror/HandleError.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaOOP/catcherror/HandleError2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HandleError.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HandleError.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JavaOOP/catcherror/HandleError.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -27,6 +27,31 @@
                 <element signature="e#409#433#1" expanded="true" />
                 <element signature="e#465#487#0" expanded="true" />
                 <element signature="e#465#487#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HandleError2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JavaOOP/catcherror/HandleError2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="54" column="4" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+              <folding>
+                <element signature="e#88#105#1" expanded="true" />
+                <element signature="e#114#131#1" expanded="true" />
+                <element signature="e#476#493#1" expanded="true" />
+                <element signature="e#502#519#1" expanded="true" />
+                <element signature="e#867#893#0" expanded="true" />
+                <element signature="e#867#893#0" expanded="true" />
+                <element signature="e#958#975#1" expanded="true" />
+                <element signature="e#984#1001#1" expanded="true" />
+                <element signature="e#1313#1339#0" expanded="true" />
+                <element signature="e#1313#1339#0" expanded="true" />
+                <element signature="e#1485#1523#1" expanded="true" />
+                <element signature="e#1747#1773#1" expanded="true" />
+                <element signature="e#1801#1841#0" expanded="true" />
+                <element signature="e#1801#1841#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/JavaOOP/humanlanguage/Chinese.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/humanlanguage/Test.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/catcherror/HandleError.java" />
+        <option value="$PROJECT_DIR$/src/JavaOOP/catcherror/HandleError2.java" />
       </list>
     </option>
   </component>
@@ -177,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HandleError">
+  <component name="RunManager" selected="Application.HandleError2">
     <configuration name="HandleError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -186,6 +212,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="JavaOOP.catcherror.HandleError" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaDataStructures" />
+      <envs />
+    </configuration>
+    <configuration name="HandleError2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="JavaOOP.catcherror.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="JavaOOP.catcherror.HandleError2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -224,25 +269,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="JavaOOP.abstractclass.Inital" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaDataStructures" />
-      <envs />
-    </configuration>
-    <configuration name="Inital" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="JavaOOP.extendclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="JavaOOP.extendclass.Inital" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -355,19 +381,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Inital" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Initail" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Inital (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="4" class="java.lang.String" itemvalue="Application.HandleError" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Initail" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Inital (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HandleError" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HandleError2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.HandleError" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Inital (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Initail" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Inital" />
+        <item index="0" class="java.lang.String" itemvalue="Application.HandleError2" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HandleError" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Inital (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Initail" />
       </list>
     </recent_temporary>
   </component>
@@ -599,11 +625,19 @@
       <option name="project" value="LOCAL" />
       <updated>1506353667748</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Understand the try and catch">
+      <created>1506356138356</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1506356138356</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="689" y="23" width="873" height="805" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -613,12 +647,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24017467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46724892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19013236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19013236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -638,7 +672,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="No more recursion, we are going to use loop to sovle the problem" />
     <MESSAGE value="Try with a large number and see can it be done." />
     <MESSAGE value="file cleanup" />
     <MESSAGE value="Delete the specific node (num)" />
@@ -663,7 +696,8 @@
     <MESSAGE value="A easy OOP to apply what I learn about Class" />
     <MESSAGE value="Apply the polymorphism to the class" />
     <MESSAGE value="Apply the abstract class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apply the abstract class" />
+    <MESSAGE value="Understand the try and catch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Understand the try and catch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -891,10 +925,10 @@
         <state relative-caret-position="135">
           <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
-            <element signature="e#202#236#0" expanded="true" />
-            <element signature="e#202#236#0" expanded="true" />
-            <element signature="e#202#236#0" expanded="true" />
-            <element signature="e#202#236#0" expanded="true" />
+            <element signature="e#202#236#0" expanded="false" />
+            <element signature="e#202#236#0" expanded="false" />
+            <element signature="e#202#236#0" expanded="false" />
+            <element signature="e#202#236#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -904,11 +938,11 @@
         <state relative-caret-position="240">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#196#278#0" expanded="true" />
-            <element signature="e#196#278#0" expanded="true" />
-            <element signature="e#196#278#0" expanded="true" />
-            <element signature="e#196#278#0" expanded="true" />
-            <element signature="e#196#278#0" expanded="true" />
+            <element signature="e#196#278#0" expanded="false" />
+            <element signature="e#196#278#0" expanded="false" />
+            <element signature="e#196#278#0" expanded="false" />
+            <element signature="e#196#278#0" expanded="false" />
+            <element signature="e#196#278#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -918,8 +952,8 @@
         <state relative-caret-position="60">
           <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
           <folding>
-            <element signature="e#70#71#0" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#70#71#0" expanded="false" />
+            <element signature="e#125#126#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -950,10 +984,10 @@
         <state relative-caret-position="315">
           <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding>
-            <element signature="e#420#440#1" expanded="true" />
-            <element signature="e#449#469#0" expanded="true" />
-            <element signature="e#534#557#1" expanded="true" />
-            <element signature="e#545#556#0" expanded="true" />
+            <element signature="e#420#440#1" expanded="false" />
+            <element signature="e#449#469#0" expanded="false" />
+            <element signature="e#534#557#1" expanded="false" />
+            <element signature="e#545#556#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -971,10 +1005,10 @@
         <state relative-caret-position="120">
           <caret line="8" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
           <folding>
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#95#96#0" expanded="false" />
+            <element signature="e#154#155#0" expanded="false" />
+            <element signature="e#181#182#0" expanded="false" />
+            <element signature="e#244#245#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1000,9 +1034,9 @@
         <state relative-caret-position="105">
           <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="false" />
+            <element signature="e#303#304#0" expanded="false" />
+            <element signature="e#400#401#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1012,8 +1046,8 @@
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#97#98#0" expanded="false" />
+            <element signature="e#165#166#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1023,11 +1057,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
           <folding>
-            <element signature="e#433#472#1" expanded="true" />
-            <element signature="e#511#543#1" expanded="true" />
-            <element signature="e#655#852#1" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#433#472#1" expanded="false" />
+            <element signature="e#511#543#1" expanded="false" />
+            <element signature="e#655#852#1" expanded="false" />
+            <element signature="e#752#753#0" expanded="false" />
+            <element signature="e#840#841#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1048,8 +1082,8 @@
         <state relative-caret-position="30">
           <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
           <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#94#95#0" expanded="false" />
+            <element signature="e#149#150#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1059,8 +1093,8 @@
         <state relative-caret-position="30">
           <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
           <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#99#100#0" expanded="false" />
+            <element signature="e#158#159#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1095,6 +1129,29 @@
             <element signature="e#409#433#1" expanded="true" />
             <element signature="e#465#487#0" expanded="true" />
             <element signature="e#465#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaOOP/catcherror/HandleError2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="54" column="4" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+          <folding>
+            <element signature="e#88#105#1" expanded="true" />
+            <element signature="e#114#131#1" expanded="true" />
+            <element signature="e#476#493#1" expanded="true" />
+            <element signature="e#502#519#1" expanded="true" />
+            <element signature="e#867#893#0" expanded="true" />
+            <element signature="e#867#893#0" expanded="true" />
+            <element signature="e#958#975#1" expanded="true" />
+            <element signature="e#984#1001#1" expanded="true" />
+            <element signature="e#1313#1339#0" expanded="true" />
+            <element signature="e#1313#1339#0" expanded="true" />
+            <element signature="e#1485#1523#1" expanded="true" />
+            <element signature="e#1747#1773#1" expanded="true" />
+            <element signature="e#1801#1841#0" expanded="true" />
+            <element signature="e#1801#1841#0" expanded="true" />
           </folding>
         </state>
       </provider>
