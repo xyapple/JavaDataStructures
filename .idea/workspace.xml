@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1ccff9-3b15-4e69-a3d8-c14a1ab0aa38" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaOOP/extendclass/Animal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaOOP/extendclass/Dog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaOOP/extendclass/Inital.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaOOP/extendclass/Dog.java" afterPath="$PROJECT_DIR$/src/JavaOOP/extendclass/Dog.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,57 +15,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NestClass1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaOOP/NestClass1.java">
+      <file leaf-file-name="Dog.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JavaOOP/extendclass/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="75">
+              <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
               <folding>
-                <element signature="e#268#312#0" expanded="true" />
-                <element signature="e#268#312#0" expanded="true" />
-                <element signature="e#346#372#0" expanded="true" />
-                <element signature="e#346#372#0" expanded="true" />
-                <element signature="e#406#448#0" expanded="true" />
-                <element signature="e#406#448#0" expanded="true" />
-                <element signature="e#544#581#1" expanded="true" />
-                <element signature="e#609#642#1" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#196#249#0" expanded="true" />
+                <element signature="e#196#249#0" expanded="true" />
+                <element signature="e#196#249#0" expanded="true" />
+                <element signature="e#196#249#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NestClass2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaOOP/NestClass2.java">
+      <file leaf-file-name="Inital.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JavaOOP/extendclass/Inital.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+            <state relative-caret-position="105">
+              <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
               <folding>
-                <element signature="e#277#312#0" expanded="true" />
-                <element signature="e#277#312#0" expanded="true" />
-                <element signature="e#346#369#0" expanded="true" />
-                <element signature="e#346#369#0" expanded="true" />
-                <element signature="e#483#508#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NestClass3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaOOP/NestClass3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-              <folding>
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#332#357#1" expanded="true" />
-                <element signature="e#395#424#1" expanded="true" />
-                <element signature="e#410#423#0" expanded="true" />
-                <element signature="e#461#511#0" expanded="true" />
-                <element signature="e#461#511#0" expanded="true" />
-                <element signature="e#461#511#0" expanded="true" />
-                <element signature="e#461#511#0" expanded="true" />
-                <element signature="e#578#611#1" expanded="true" />
+                <element signature="e#202#236#0" expanded="true" />
+                <element signature="e#202#236#0" expanded="true" />
+                <element signature="e#202#236#0" expanded="true" />
+                <element signature="e#202#236#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,32 +55,6 @@
               <folding>
                 <element signature="e#121#122#0" expanded="true" />
                 <element signature="e#180#181#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaOOP/extendclass/Dog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Inital.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/JavaOOP/extendclass/Inital.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-              <folding>
-                <element signature="e#105#125#1" expanded="true" />
-                <element signature="e#202#236#0" expanded="true" />
-                <element signature="e#202#236#0" expanded="true" />
-                <element signature="e#202#236#0" expanded="true" />
-                <element signature="e#202#236#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,8 +100,9 @@
         <option value="$PROJECT_DIR$/src/JavaOOP/NestClass2.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/NestClass3.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/extendclass/Animal.java" />
-        <option value="$PROJECT_DIR$/src/JavaOOP/extendclass/Dog.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/extendclass/Inital.java" />
+        <option value="/Dummy.txt" />
+        <option value="$PROJECT_DIR$/src/JavaOOP/extendclass/Dog.java" />
       </list>
     </option>
   </component>
@@ -605,11 +554,19 @@
       <option name="project" value="LOCAL" />
       <updated>1506340474736</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Create a extended Java class Dog from the Animal Class">
+      <created>1506341940831</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1506341940831</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="100" y="24" width="1307" height="805" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -624,7 +581,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16996047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16996047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -666,7 +623,8 @@
     <MESSAGE value="Call the method inside the Nested Class" />
     <MESSAGE value="Use the public static method to create a Inner class" />
     <MESSAGE value="example of class nested inside of method! and how to use it." />
-    <option name="LAST_COMMIT_MESSAGE" value="example of class nested inside of method! and how to use it." />
+    <MESSAGE value="Create a extended Java class Dog from the Animal Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a extended Java class Dog from the Animal Class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -826,37 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaOOP/NestClass1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="e#268#312#0" expanded="true" />
-            <element signature="e#268#312#0" expanded="true" />
-            <element signature="e#346#372#0" expanded="true" />
-            <element signature="e#346#372#0" expanded="true" />
-            <element signature="e#406#448#0" expanded="true" />
-            <element signature="e#406#448#0" expanded="true" />
-            <element signature="e#544#581#1" expanded="true" />
-            <element signature="e#609#642#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaOOP/NestClass2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-          <folding>
-            <element signature="e#277#312#0" expanded="true" />
-            <element signature="e#277#312#0" expanded="true" />
-            <element signature="e#346#369#0" expanded="true" />
-            <element signature="e#346#369#0" expanded="true" />
-            <element signature="e#483#508#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaOOP/NestClass3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -876,6 +803,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaOOP/NestClass2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding>
+            <element signature="e#277#312#0" expanded="true" />
+            <element signature="e#277#312#0" expanded="true" />
+            <element signature="e#346#369#0" expanded="true" />
+            <element signature="e#346#369#0" expanded="true" />
+            <element signature="e#483#508#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaOOP/NestClass1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#268#312#0" expanded="true" />
+            <element signature="e#268#312#0" expanded="true" />
+            <element signature="e#346#372#0" expanded="true" />
+            <element signature="e#346#372#0" expanded="true" />
+            <element signature="e#406#448#0" expanded="true" />
+            <element signature="e#406#448#0" expanded="true" />
+            <element signature="e#544#581#1" expanded="true" />
+            <element signature="e#609#642#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaOOP/extendclass/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -887,24 +845,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaOOP/extendclass/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaOOP/extendclass/Inital.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
           <folding>
-            <element signature="e#105#125#1" expanded="true" />
             <element signature="e#202#236#0" expanded="true" />
             <element signature="e#202#236#0" expanded="true" />
             <element signature="e#202#236#0" expanded="true" />
             <element signature="e#202#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaOOP/extendclass/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#196#249#0" expanded="true" />
+            <element signature="e#196#249#0" expanded="true" />
+            <element signature="e#196#249#0" expanded="true" />
+            <element signature="e#196#249#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
           </folding>
         </state>
       </provider>
