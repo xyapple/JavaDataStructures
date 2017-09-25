@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1ccff9-3b15-4e69-a3d8-c14a1ab0aa38" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaOOP/datetime2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Map_Demo/Map_Demo.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Map_Demo/src/collection/Course.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Map_Demo/src/collection/ListCourse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Map_Demo/src/collection/Student.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaOOP/catcherror/DrunkException.java" afterPath="$PROJECT_DIR$/src/JavaOOP/catcherror/DrunkException.java" />
     </list>
@@ -16,185 +20,116 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HandleError.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaOOP/catcherror/HandleError.java">
+      <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map_Demo/src/collection/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#177#216#1" expanded="true" />
-                <element signature="e#311#335#1" expanded="true" />
-                <element signature="e#409#433#1" expanded="true" />
-                <element signature="e#465#487#0" expanded="true" />
-                <element signature="e#465#487#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandleError2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaOOP/catcherror/HandleError2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="47" column="11" lean-forward="true" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-              <folding>
-                <element signature="e#88#105#1" expanded="true" />
-                <element signature="e#114#131#1" expanded="true" />
-                <element signature="e#476#493#1" expanded="true" />
-                <element signature="e#502#519#1" expanded="true" />
-                <element signature="e#867#893#0" expanded="true" />
-                <element signature="e#867#893#0" expanded="true" />
-                <element signature="e#958#975#1" expanded="true" />
-                <element signature="e#984#1001#1" expanded="true" />
-                <element signature="e#1313#1339#0" expanded="true" />
-                <element signature="e#1313#1339#0" expanded="true" />
-                <element signature="e#1485#1523#1" expanded="true" />
-                <element signature="e#1747#1773#1" expanded="true" />
-                <element signature="e#1801#1841#0" expanded="true" />
-                <element signature="e#1801#1841#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandleError3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaOOP/catcherror/HandleError3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="e#141#178#1" expanded="true" />
-                <element signature="e#519#592#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrunkException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaOOP/catcherror/DrunkException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stringexample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaOOP/stringexample.java">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map_Demo/src/collection/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-              <folding>
-                <element signature="e#118#154#1" expanded="true" />
-                <element signature="e#177#215#1" expanded="true" />
-                <element signature="e#425#463#1" expanded="true" />
-                <element signature="e#500#565#1" expanded="true" />
-                <element signature="e#516#564#0" expanded="true" />
-                <element signature="e#656#677#0" expanded="true" />
-                <element signature="e#656#677#0" expanded="true" />
-                <element signature="e#1012#1044#1" expanded="true" />
-                <element signature="e#1086#1118#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stringexample2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaOOP/stringexample2.java">
+      <file leaf-file-name="ListCourse.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Map_Demo/src/collection/ListCourse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="331">
+              <caret line="53" column="65" lean-forward="false" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
               <folding>
-                <element signature="e#120#183#1" expanded="true" />
-                <element signature="e#217#229#1" expanded="true" />
-                <element signature="e#292#302#1" expanded="true" />
-                <element signature="e#287#596#0" expanded="true" />
-                <element signature="e#287#596#0" expanded="true" />
-                <element signature="e#287#596#0" expanded="true" />
-                <element signature="e#502#513#0" expanded="true" />
-                <element signature="e#502#513#0" expanded="true" />
-                <element signature="e#624#641#0" expanded="true" />
-                <element signature="e#624#641#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stringexample3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaOOP/stringexample3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="49" />
-              <folding>
-                <element signature="e#146#186#1" expanded="true" />
-                <element signature="e#233#263#0" expanded="true" />
-                <element signature="e#233#263#0" expanded="true" />
-                <element signature="e#322#344#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="boxAndunbox.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaOOP/boxAndunbox.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="e#131#147#1" expanded="true" />
-                <element signature="e#181#206#1" expanded="true" />
-                <element signature="e#240#253#1" expanded="true" />
-                <element signature="e#290#314#0" expanded="true" />
-                <element signature="e#290#314#0" expanded="true" />
-                <element signature="e#290#314#0" expanded="true" />
-                <element signature="e#290#314#0" expanded="true" />
-                <element signature="e#365#393#1" expanded="true" />
-                <element signature="e#427#454#1" expanded="true" />
-                <element signature="e#488#501#1" expanded="true" />
-                <element signature="e#538#562#0" expanded="true" />
-                <element signature="e#538#562#0" expanded="true" />
-                <element signature="e#538#562#0" expanded="true" />
-                <element signature="e#538#562#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datetime.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaOOP/datetime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="22" />
-              <folding>
-                <element signature="e#259#329#1" expanded="true" />
-                <element signature="e#338#403#1" expanded="true" />
-                <element signature="e#412#480#1" expanded="true" />
-                <element signature="e#525#547#1" expanded="true" />
-                <element signature="e#780#811#1" expanded="true" />
-                <element signature="e#820#887#1" expanded="true" />
-                <element signature="e#938#963#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datetime2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/JavaOOP/datetime2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#205#241#1" expanded="true" />
-                <element signature="e#218#240#0" expanded="true" />
-                <element signature="e#291#315#1" expanded="true" />
-                <element signature="e#303#314#0" expanded="true" />
-                <element signature="e#372#439#1" expanded="true" />
-                <element signature="e#483#513#1" expanded="true" />
-                <element signature="e#541#554#0" expanded="true" />
-                <element signature="e#541#554#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#179#194#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#275#325#1" expanded="true" />
+                <element signature="e#334#361#0" expanded="true" />
+                <element signature="e#334#361#0" expanded="true" />
+                <element signature="e#371#416#1" expanded="true" />
+                <element signature="e#385#415#0" expanded="true" />
+                <element signature="e#394#415#0" expanded="true" />
+                <element signature="e#394#415#0" expanded="true" />
+                <element signature="e#444#506#0" expanded="true" />
+                <element signature="e#444#506#0" expanded="true" />
+                <element signature="e#444#506#0" expanded="true" />
+                <element signature="e#444#506#0" expanded="true" />
+                <element signature="e#517#564#1" expanded="true" />
+                <element signature="e#612#658#1" expanded="true" />
+                <element signature="e#627#657#0" expanded="true" />
+                <element signature="e#636#657#0" expanded="true" />
+                <element signature="e#636#657#0" expanded="true" />
+                <element signature="e#686#750#0" expanded="true" />
+                <element signature="e#686#750#0" expanded="true" />
+                <element signature="e#686#750#0" expanded="true" />
+                <element signature="e#686#750#0" expanded="true" />
+                <element signature="e#943#1049#1" expanded="true" />
+                <element signature="e#1057#1102#0" expanded="true" />
+                <element signature="e#1057#1102#0" expanded="true" />
+                <element signature="e#1112#1158#1" expanded="true" />
+                <element signature="e#1127#1157#0" expanded="true" />
+                <element signature="e#1136#1157#0" expanded="true" />
+                <element signature="e#1136#1157#0" expanded="true" />
+                <element signature="e#1167#1213#1" expanded="true" />
+                <element signature="e#1182#1212#0" expanded="true" />
+                <element signature="e#1191#1212#0" expanded="true" />
+                <element signature="e#1191#1212#0" expanded="true" />
+                <element signature="e#1241#1408#0" expanded="true" />
+                <element signature="e#1241#1408#0" expanded="true" />
+                <element signature="e#1241#1408#0" expanded="true" />
+                <element signature="e#1241#1408#0" expanded="true" />
+                <element signature="e#1241#1408#0" expanded="true" />
+                <element signature="e#1241#1408#0" expanded="true" />
+                <element signature="e#1241#1408#0" expanded="true" />
+                <element signature="e#1241#1408#0" expanded="true" />
+                <element signature="e#1241#1408#0" expanded="true" />
+                <element signature="e#1241#1408#0" expanded="true" />
+                <element signature="e#1241#1408#0" expanded="true" />
+                <element signature="e#1241#1408#0" expanded="true" />
+                <element signature="e#1467#1572#1" expanded="true" />
+                <element signature="e#1581#1629#0" expanded="true" />
+                <element signature="e#1581#1629#0" expanded="true" />
+                <element signature="e#1581#1629#0" expanded="true" />
+                <element signature="e#1639#1685#1" expanded="true" />
+                <element signature="e#1654#1684#0" expanded="true" />
+                <element signature="e#1663#1684#0" expanded="true" />
+                <element signature="e#1663#1684#0" expanded="true" />
+                <element signature="e#1694#1740#1" expanded="true" />
+                <element signature="e#1709#1739#0" expanded="true" />
+                <element signature="e#1718#1739#0" expanded="true" />
+                <element signature="e#1718#1739#0" expanded="true" />
+                <element signature="e#1768#1935#0" expanded="true" />
+                <element signature="e#1768#1935#0" expanded="true" />
+                <element signature="e#1768#1935#0" expanded="true" />
+                <element signature="e#1768#1935#0" expanded="true" />
+                <element signature="e#1768#1935#0" expanded="true" />
+                <element signature="e#1768#1935#0" expanded="true" />
+                <element signature="e#1768#1935#0" expanded="true" />
+                <element signature="e#1768#1935#0" expanded="true" />
+                <element signature="e#1768#1935#0" expanded="true" />
+                <element signature="e#1768#1935#0" expanded="true" />
+                <element signature="e#1768#1935#0" expanded="true" />
+                <element signature="e#1768#1935#0" expanded="true" />
+                <element signature="e#2043#2076#1" expanded="true" />
+                <element signature="e#2089#2099#1" expanded="true" />
+                <element signature="e#2085#2261#0" expanded="true" />
+                <element signature="e#2085#2261#0" expanded="true" />
+                <element signature="e#2085#2261#0" expanded="true" />
+                <element signature="e#2127#2170#1" expanded="true" />
+                <element signature="e#2139#2169#0" expanded="true" />
+                <element signature="e#2148#2169#0" expanded="true" />
+                <element signature="e#2148#2169#0" expanded="true" />
+                <element signature="e#2202#2236#0" expanded="true" />
+                <element signature="e#2202#2236#0" expanded="true" />
+                <element signature="e#2202#2236#0" expanded="true" />
+                <element signature="e#2202#2236#0" expanded="true" />
+                <element signature="e#2326#2358#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -221,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Recursion/LinkedListCombinations.java" />
         <option value="$PROJECT_DIR$/src/Loop/Node.java" />
         <option value="$PROJECT_DIR$/src/Loop/LinkedListCreator.java" />
         <option value="$PROJECT_DIR$/src/Loop/LinkedListReverserLoop.java" />
@@ -269,11 +203,15 @@
         <option value="$PROJECT_DIR$/src/JavaOOP/boxAndunbox.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/datetime.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/datetime2.java" />
+        <option value="$PROJECT_DIR$/src/JavaOOP/usemath.java" />
+        <option value="$PROJECT_DIR$/Map_Demo/src/collection/Course.java" />
+        <option value="$PROJECT_DIR$/Map_Demo/src/collection/Student.java" />
+        <option value="$PROJECT_DIR$/Map_Demo/src/collection/ListCourse.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="133" />
+    <option name="x" value="558" />
     <option name="y" value="23" />
     <option name="width" value="866" />
     <option name="height" value="805" />
@@ -304,13 +242,20 @@
             <path>
               <item name="JavaDataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaDataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="Map_Demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="Map_Demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaDataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaDataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="Map_Demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaOOP" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -347,7 +292,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.datetime2">
+  <component name="RunManager" selected="Application.ListCourse">
+    <configuration name="ListCourse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="collection.ListCourse" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Map_Demo" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -486,33 +450,14 @@
       <module name="JavaDataStructures" />
       <envs />
     </configuration>
-    <configuration name="stringexample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="usemath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="JavaOOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="JavaOOP.stringexample" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaDataStructures" />
-      <envs />
-    </configuration>
-    <configuration name="stringexample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="JavaOOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="JavaOOP.stringexample3" />
+      <option name="MAIN_CLASS_NAME" value="JavaOOP.usemath" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -525,19 +470,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.stringexample" />
-      <item index="1" class="java.lang.String" itemvalue="Application.stringexample3" />
-      <item index="2" class="java.lang.String" itemvalue="Application.boxAndunbox" />
-      <item index="3" class="java.lang.String" itemvalue="Application.datetime" />
-      <item index="4" class="java.lang.String" itemvalue="Application.datetime2" />
+      <item index="0" class="java.lang.String" itemvalue="Application.boxAndunbox" />
+      <item index="1" class="java.lang.String" itemvalue="Application.datetime" />
+      <item index="2" class="java.lang.String" itemvalue="Application.datetime2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.usemath" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ListCourse" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.datetime2" />
-        <item index="1" class="java.lang.String" itemvalue="Application.datetime" />
-        <item index="2" class="java.lang.String" itemvalue="Application.boxAndunbox" />
-        <item index="3" class="java.lang.String" itemvalue="Application.stringexample3" />
-        <item index="4" class="java.lang.String" itemvalue="Application.stringexample" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ListCourse" />
+        <item index="1" class="java.lang.String" itemvalue="Application.usemath" />
+        <item index="2" class="java.lang.String" itemvalue="Application.datetime2" />
+        <item index="3" class="java.lang.String" itemvalue="Application.datetime" />
+        <item index="4" class="java.lang.String" itemvalue="Application.boxAndunbox" />
       </list>
     </recent_temporary>
   </component>
@@ -825,11 +770,25 @@
       <option name="project" value="LOCAL" />
       <updated>1506362493190</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="example of Date and Time By Calender">
+      <created>1506362721267</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1506362721267</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Use Math.XX">
+      <created>1506364148583</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1506364148583</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="133" y="23" width="866" height="805" extended-state="0" />
+    <frame x="558" y="23" width="866" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -845,7 +804,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2184466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07038835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -865,8 +824,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Learn about Java OOP basced" />
-    <MESSAGE value="understand the java class from basic" />
     <MESSAGE value="understanding static; public/private method" />
     <MESSAGE value="use set/get" />
     <MESSAGE value="Add a sub-package inside the JavaOOP pacakge. Call the new method from the new package." />
@@ -890,7 +847,9 @@
     <MESSAGE value="Use StringBuilder" />
     <MESSAGE value="example of Box and Unbox" />
     <MESSAGE value="example of Date and Time" />
-    <option name="LAST_COMMIT_MESSAGE" value="example of Date and Time" />
+    <MESSAGE value="example of Date and Time By Calender" />
+    <MESSAGE value="Use Math.XX" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use Math.XX" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -899,36 +858,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Recursion/LinkedListDeletor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Recursion/LinkedListDeletor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loop/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Recursion/LinkedListCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Recursion/LinkedListReverserLoop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1352,7 +1281,7 @@
     <entry file="file://$PROJECT_DIR$/src/JavaOOP/catcherror/HandleError3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="e#141#178#1" expanded="true" />
             <element signature="e#519#592#1" expanded="true" />
@@ -1363,7 +1292,7 @@
     <entry file="file://$PROJECT_DIR$/src/JavaOOP/catcherror/DrunkException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1389,7 +1318,7 @@
     <entry file="file://$PROJECT_DIR$/src/JavaOOP/stringexample2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="e#120#183#1" expanded="true" />
             <element signature="e#217#229#1" expanded="true" />
@@ -1460,7 +1389,7 @@
     <entry file="file://$PROJECT_DIR$/src/JavaOOP/datetime2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#205#241#1" expanded="true" />
@@ -1471,6 +1400,143 @@
             <element signature="e#483#513#1" expanded="true" />
             <element signature="e#541#554#0" expanded="true" />
             <element signature="e#541#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map_Demo/src/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaOOP/usemath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#129#154#1" expanded="true" />
+            <element signature="e#197#207#1" expanded="true" />
+            <element signature="e#192#361#0" expanded="true" />
+            <element signature="e#192#361#0" expanded="true" />
+            <element signature="e#192#361#0" expanded="true" />
+            <element signature="e#270#305#1" expanded="true" />
+            <element signature="e#278#304#0" expanded="true" />
+            <element signature="e#278#304#0" expanded="true" />
+            <element signature="e#415#422#0" expanded="true" />
+            <element signature="e#462#470#0" expanded="true" />
+            <element signature="e#462#470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map_Demo/src/collection/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map_Demo/src/collection/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map_Demo/src/collection/ListCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="53" column="65" lean-forward="false" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#179#194#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#275#325#1" expanded="true" />
+            <element signature="e#334#361#0" expanded="true" />
+            <element signature="e#334#361#0" expanded="true" />
+            <element signature="e#371#416#1" expanded="true" />
+            <element signature="e#385#415#0" expanded="true" />
+            <element signature="e#394#415#0" expanded="true" />
+            <element signature="e#394#415#0" expanded="true" />
+            <element signature="e#444#506#0" expanded="true" />
+            <element signature="e#444#506#0" expanded="true" />
+            <element signature="e#444#506#0" expanded="true" />
+            <element signature="e#444#506#0" expanded="true" />
+            <element signature="e#517#564#1" expanded="true" />
+            <element signature="e#612#658#1" expanded="true" />
+            <element signature="e#627#657#0" expanded="true" />
+            <element signature="e#636#657#0" expanded="true" />
+            <element signature="e#636#657#0" expanded="true" />
+            <element signature="e#686#750#0" expanded="true" />
+            <element signature="e#686#750#0" expanded="true" />
+            <element signature="e#686#750#0" expanded="true" />
+            <element signature="e#686#750#0" expanded="true" />
+            <element signature="e#943#1049#1" expanded="true" />
+            <element signature="e#1057#1102#0" expanded="true" />
+            <element signature="e#1057#1102#0" expanded="true" />
+            <element signature="e#1112#1158#1" expanded="true" />
+            <element signature="e#1127#1157#0" expanded="true" />
+            <element signature="e#1136#1157#0" expanded="true" />
+            <element signature="e#1136#1157#0" expanded="true" />
+            <element signature="e#1167#1213#1" expanded="true" />
+            <element signature="e#1182#1212#0" expanded="true" />
+            <element signature="e#1191#1212#0" expanded="true" />
+            <element signature="e#1191#1212#0" expanded="true" />
+            <element signature="e#1241#1408#0" expanded="true" />
+            <element signature="e#1241#1408#0" expanded="true" />
+            <element signature="e#1241#1408#0" expanded="true" />
+            <element signature="e#1241#1408#0" expanded="true" />
+            <element signature="e#1241#1408#0" expanded="true" />
+            <element signature="e#1241#1408#0" expanded="true" />
+            <element signature="e#1241#1408#0" expanded="true" />
+            <element signature="e#1241#1408#0" expanded="true" />
+            <element signature="e#1241#1408#0" expanded="true" />
+            <element signature="e#1241#1408#0" expanded="true" />
+            <element signature="e#1241#1408#0" expanded="true" />
+            <element signature="e#1241#1408#0" expanded="true" />
+            <element signature="e#1467#1572#1" expanded="true" />
+            <element signature="e#1581#1629#0" expanded="true" />
+            <element signature="e#1581#1629#0" expanded="true" />
+            <element signature="e#1581#1629#0" expanded="true" />
+            <element signature="e#1639#1685#1" expanded="true" />
+            <element signature="e#1654#1684#0" expanded="true" />
+            <element signature="e#1663#1684#0" expanded="true" />
+            <element signature="e#1663#1684#0" expanded="true" />
+            <element signature="e#1694#1740#1" expanded="true" />
+            <element signature="e#1709#1739#0" expanded="true" />
+            <element signature="e#1718#1739#0" expanded="true" />
+            <element signature="e#1718#1739#0" expanded="true" />
+            <element signature="e#1768#1935#0" expanded="true" />
+            <element signature="e#1768#1935#0" expanded="true" />
+            <element signature="e#1768#1935#0" expanded="true" />
+            <element signature="e#1768#1935#0" expanded="true" />
+            <element signature="e#1768#1935#0" expanded="true" />
+            <element signature="e#1768#1935#0" expanded="true" />
+            <element signature="e#1768#1935#0" expanded="true" />
+            <element signature="e#1768#1935#0" expanded="true" />
+            <element signature="e#1768#1935#0" expanded="true" />
+            <element signature="e#1768#1935#0" expanded="true" />
+            <element signature="e#1768#1935#0" expanded="true" />
+            <element signature="e#1768#1935#0" expanded="true" />
+            <element signature="e#2043#2076#1" expanded="true" />
+            <element signature="e#2089#2099#1" expanded="true" />
+            <element signature="e#2085#2261#0" expanded="true" />
+            <element signature="e#2085#2261#0" expanded="true" />
+            <element signature="e#2085#2261#0" expanded="true" />
+            <element signature="e#2127#2170#1" expanded="true" />
+            <element signature="e#2139#2169#0" expanded="true" />
+            <element signature="e#2148#2169#0" expanded="true" />
+            <element signature="e#2148#2169#0" expanded="true" />
+            <element signature="e#2202#2236#0" expanded="true" />
+            <element signature="e#2202#2236#0" expanded="true" />
+            <element signature="e#2202#2236#0" expanded="true" />
+            <element signature="e#2202#2236#0" expanded="true" />
+            <element signature="e#2326#2358#1" expanded="true" />
           </folding>
         </state>
       </provider>
