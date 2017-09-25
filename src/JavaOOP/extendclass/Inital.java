@@ -6,7 +6,8 @@ public class Inital {
         dog.age = 2;
         dog.name = "Hello";
         System.out.println("name: "+dog.name+" age: "+dog.age );
-        dog.hasLegs();
+        //dog.hasLegs();
+        dog.method();
         
     }
 }
