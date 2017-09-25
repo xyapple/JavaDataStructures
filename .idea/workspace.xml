@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1ccff9-3b15-4e69-a3d8-c14a1ab0aa38" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaOOP/humanlanguage/Chinese.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaOOP/humanlanguage/Human.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaOOP/humanlanguage/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaOOP/humanlanguage/US.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaOOP/humanlanguage/Test.java" afterPath="$PROJECT_DIR$/src/JavaOOP/humanlanguage/Test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,11 +57,11 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/JavaOOP/humanlanguage/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="210">
+              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding>
-                <element signature="e#105#131#1" expanded="true" />
-                <element signature="e#140#156#1" expanded="true" />
+                <element signature="e#275#299#1" expanded="true" />
+                <element signature="e#308#327#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -614,7 +611,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506352920849</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="A easy OOP to apply what I learn about Class">
+      <created>1506353354775</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1506353354775</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -654,7 +658,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create the linkedListCreator and also call the method() from Node" />
     <MESSAGE value="Create a Reverse Linked List" />
     <MESSAGE value="Combination of selected num" />
     <MESSAGE value="No more recursion, we are going to use loop to sovle the problem" />
@@ -679,7 +682,8 @@
     <MESSAGE value="Under stand the Polymorphism and the different between them" />
     <MESSAGE value="Understand the abstract classes and use them" />
     <MESSAGE value="Understand the Interface and abstract classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Understand the Interface and abstract classes" />
+    <MESSAGE value="A easy OOP to apply what I learn about Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="A easy OOP to apply what I learn about Class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1083,11 +1087,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaOOP/humanlanguage/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="210">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
-            <element signature="e#105#131#1" expanded="true" />
-            <element signature="e#140#156#1" expanded="true" />
+            <element signature="e#275#299#1" expanded="true" />
+            <element signature="e#308#327#1" expanded="true" />
           </folding>
         </state>
       </provider>
