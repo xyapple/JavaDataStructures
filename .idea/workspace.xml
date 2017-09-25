@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1ccff9-3b15-4e69-a3d8-c14a1ab0aa38" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaOOP/NestClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/JavaOOP/InitailTelphone.java" afterPath="$PROJECT_DIR$/src/JavaOOP/telphone/InitailTelphone.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,42 +14,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InitailTelphone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaOOP/telphone/InitailTelphone.java">
+      <file leaf-file-name="NestClass1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JavaOOP/NestClass1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="330">
+              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding>
-                <element signature="e#289#332#1" expanded="true" />
-                <element signature="e#490#546#1" expanded="true" />
+                <element signature="e#268#312#0" expanded="true" />
+                <element signature="e#268#312#0" expanded="true" />
+                <element signature="e#346#372#0" expanded="true" />
+                <element signature="e#346#372#0" expanded="true" />
+                <element signature="e#406#448#0" expanded="true" />
+                <element signature="e#406#448#0" expanded="true" />
+                <element signature="e#544#581#1" expanded="true" />
+                <element signature="e#609#642#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NestClass.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/JavaOOP/NestClass.java">
+      <file leaf-file-name="NestClass2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JavaOOP/NestClass2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="61" lean-forward="false" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+            <state relative-caret-position="195">
+              <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
               <folding>
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#330#363#1" expanded="true" />
-                <element signature="e#391#418#1" expanded="true" />
+                <element signature="e#277#312#0" expanded="true" />
+                <element signature="e#277#312#0" expanded="true" />
+                <element signature="e#346#369#0" expanded="true" />
+                <element signature="e#346#369#0" expanded="true" />
+                <element signature="e#483#508#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Telphone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaOOP/second/telphone/Telphone.java">
+      <file leaf-file-name="NestClass3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JavaOOP/NestClass3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="390">
+              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding>
-                <element signature="e#106#107#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#332#357#1" expanded="true" />
+                <element signature="e#395#424#1" expanded="true" />
+                <element signature="e#410#423#0" expanded="true" />
+                <element signature="e#461#511#0" expanded="true" />
+                <element signature="e#461#511#0" expanded="true" />
+                <element signature="e#461#511#0" expanded="true" />
+                <element signature="e#461#511#0" expanded="true" />
+                <element signature="e#578#611#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,6 +105,9 @@
         <option value="$PROJECT_DIR$/src/JavaOOP/InitailTelphone.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/telphone/InitailTelphone.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/NestClass.java" />
+        <option value="$PROJECT_DIR$/src/JavaOOP/NestClass1.java" />
+        <option value="$PROJECT_DIR$/src/JavaOOP/NestClass2.java" />
+        <option value="$PROJECT_DIR$/src/JavaOOP/NestClass3.java" />
       </list>
     </option>
   </component>
@@ -170,26 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NestClass">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Loop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Loop.BinarySearch" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaDataStructures" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.NestClass3">
     <configuration name="InitailTelphone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -209,44 +206,6 @@
       <module name="JavaDataStructures" />
       <envs />
     </configuration>
-    <configuration name="LinkedListDeletor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Recursion.LinkedListDeletor" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaDataStructures" />
-      <envs />
-    </configuration>
-    <configuration name="LinkedListReverserLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Recursion.LinkedListReverserLoop" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaDataStructures" />
-      <envs />
-    </configuration>
     <configuration name="NestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -255,6 +214,63 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="JavaOOP.NestClass" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaDataStructures" />
+      <envs />
+    </configuration>
+    <configuration name="NestClass1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="JavaOOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="JavaOOP.NestClass1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaDataStructures" />
+      <envs />
+    </configuration>
+    <configuration name="NestClass2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="JavaOOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="JavaOOP.NestClass2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaDataStructures" />
+      <envs />
+    </configuration>
+    <configuration name="NestClass3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="JavaOOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="JavaOOP.NestClass3" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -348,19 +364,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.LinkedListReverserLoop" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LinkedListDeletor" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BinarySearch" />
-      <item index="3" class="java.lang.String" itemvalue="Application.InitailTelphone" />
-      <item index="4" class="java.lang.String" itemvalue="Application.NestClass" />
+      <item index="0" class="java.lang.String" itemvalue="Application.InitailTelphone" />
+      <item index="1" class="java.lang.String" itemvalue="Application.NestClass" />
+      <item index="2" class="java.lang.String" itemvalue="Application.NestClass1" />
+      <item index="3" class="java.lang.String" itemvalue="Application.NestClass2" />
+      <item index="4" class="java.lang.String" itemvalue="Application.NestClass3" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.NestClass" />
-        <item index="1" class="java.lang.String" itemvalue="Application.InitailTelphone" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BinarySearch" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LinkedListDeletor" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LinkedListReverserLoop" />
+        <item index="0" class="java.lang.String" itemvalue="Application.NestClass3" />
+        <item index="1" class="java.lang.String" itemvalue="Application.NestClass2" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NestClass1" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NestClass" />
+        <item index="4" class="java.lang.String" itemvalue="Application.InitailTelphone" />
       </list>
     </recent_temporary>
   </component>
@@ -501,7 +517,35 @@
       <option name="project" value="LOCAL" />
       <updated>1506296881899</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Deal the Nested Class">
+      <created>1506299060233</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1506299060233</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Call the method inside the Nested Class">
+      <created>1506299807559</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1506299807559</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Use the public static method to create a Inner class">
+      <created>1506300175928</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1506300175928</updated>
+    </task>
+    <task id="LOCAL-00022" summary="example of class nested inside of method! and how to use it.">
+      <created>1506340453139</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1506340453139</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -516,7 +560,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24017467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24017467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -559,7 +603,11 @@
     <MESSAGE value="understanding static; public/private method" />
     <MESSAGE value="use set/get" />
     <MESSAGE value="Add a sub-package inside the JavaOOP pacakge. Call the new method from the new package." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a sub-package inside the JavaOOP pacakge. Call the new method from the new package." />
+    <MESSAGE value="Deal the Nested Class" />
+    <MESSAGE value="Call the method inside the Nested Class" />
+    <MESSAGE value="Use the public static method to create a Inner class" />
+    <MESSAGE value="example of class nested inside of method! and how to use it." />
+    <option name="LAST_COMMIT_MESSAGE" value="example of class nested inside of method! and how to use it." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -640,8 +688,8 @@
         <state relative-caret-position="225">
           <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding>
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="false" />
+            <element signature="e#368#369#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -715,6 +763,56 @@
             <element signature="e#236#237#0" expanded="true" />
             <element signature="e#330#363#1" expanded="true" />
             <element signature="e#391#418#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaOOP/NestClass1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#268#312#0" expanded="true" />
+            <element signature="e#268#312#0" expanded="true" />
+            <element signature="e#346#372#0" expanded="true" />
+            <element signature="e#346#372#0" expanded="true" />
+            <element signature="e#406#448#0" expanded="true" />
+            <element signature="e#406#448#0" expanded="true" />
+            <element signature="e#544#581#1" expanded="true" />
+            <element signature="e#609#642#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaOOP/NestClass2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding>
+            <element signature="e#277#312#0" expanded="true" />
+            <element signature="e#277#312#0" expanded="true" />
+            <element signature="e#346#369#0" expanded="true" />
+            <element signature="e#346#369#0" expanded="true" />
+            <element signature="e#483#508#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaOOP/NestClass3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#332#357#1" expanded="true" />
+            <element signature="e#395#424#1" expanded="true" />
+            <element signature="e#410#423#0" expanded="true" />
+            <element signature="e#461#511#0" expanded="true" />
+            <element signature="e#461#511#0" expanded="true" />
+            <element signature="e#461#511#0" expanded="true" />
+            <element signature="e#461#511#0" expanded="true" />
+            <element signature="e#578#611#1" expanded="true" />
           </folding>
         </state>
       </provider>
