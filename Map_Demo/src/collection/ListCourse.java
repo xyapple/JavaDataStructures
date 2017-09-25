@@ -49,10 +49,11 @@ public class ListCourse {
     }
     
     /***
-     *  Get elements
-     * @param
+     *  Get elements through For Loop
+     *
      */
     public void courseGet(){
+        System.out.println("Total Courses(through For Loop):");
         int size = courseToselect.size();
         for(int i = 0; i <size; i++){
             Course cr = (Course) courseToselect.get(i);
@@ -61,9 +62,35 @@ public class ListCourse {
         }
     }
     
+    /**
+     * Get element through Iterator
+     */
+    public void courseIterator(){
+        //get elements through Iterator
+        System.out.println("Total Courses(through Iterator):");
+        Iterator it = courseToselect.iterator();
+        while(it.hasNext()){
+            Course cr = (Course) it.next();
+            System.out.println("Courses: " + cr.id +" " + cr.name);
+        }
+    }
+    /**
+     * Get element through ForEach
+     */
+    public void courseForEeach(){
+        //get elements through Iterator
+        System.out.println("Total Courses(through ForEeach):");
+        for(Object obj: courseToselect){
+            Course cr = (Course) obj;
+            System.out.println("Courses: " + cr.id +" " + cr.name);
+        }
+    }
+    
     public static void main(String[] args) {
         ListCourse t = new ListCourse();
         t.courseAdd();
         t.courseGet();
+        t.courseIterator();
+        t.courseForEeach();
     }
 }
