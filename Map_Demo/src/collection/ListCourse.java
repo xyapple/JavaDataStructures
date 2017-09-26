@@ -95,7 +95,11 @@ public class ListCourse {
     }
     
     public void courseRemove(){
-        Course 
+        Course cr = (Course) courseToselect.get(4);
+        System.out.println("Course: "+cr.id+" : "+cr.name+" will be removed.");
+        courseToselect.remove(cr);
+        System.out.println("Course had be removed.");
+        courseIterator();
     }
     
     public static void main(String[] args) {
@@ -106,5 +110,6 @@ public class ListCourse {
         t.courseForEeach();
         t.courseModify();
         t.courseForEeach();
+        t.courseRemove();
     }
 }
