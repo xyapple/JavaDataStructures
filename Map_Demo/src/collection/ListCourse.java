@@ -86,11 +86,25 @@ public class ListCourse {
         }
     }
     
+    /**
+     * Change Courses by using set() method
+     * @param
+     */
+    public void courseModify(){
+        courseToselect.set(4, new Course("7", "JavaScrip 101"));
+    }
+    
+    public void courseRemove(){
+        Course 
+    }
+    
     public static void main(String[] args) {
         ListCourse t = new ListCourse();
         t.courseAdd();
         t.courseGet();
         t.courseIterator();
+        t.courseForEeach();
+        t.courseModify();
         t.courseForEeach();
     }
 }
