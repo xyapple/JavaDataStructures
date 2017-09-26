@@ -95,9 +95,11 @@ public class ListCourse {
     }
     
     public void courseRemove(){
-        Course cr = (Course) courseToselect.get(4);
-        System.out.println("Course: "+cr.id+" : "+cr.name+" will be removed.");
-        courseToselect.remove(cr);
+        //Course cr = (Course) courseToselect.get(4);
+        //System.out.println("Course: "+cr.id+" : "+cr.name+" will be removed.");
+        //courseToselect.remove(cr);
+        Course[] courses = {(Course) courseToselect.get(4),(Course)courseToselect.get(5)};
+        courseToselect.removeAll(Arrays.asList(courses));
         System.out.println("Course had be removed.");
         courseIterator();
     }
