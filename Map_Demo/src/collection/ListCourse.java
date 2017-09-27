@@ -75,6 +75,8 @@ public class ListCourse {
            System.out.println("Courses: " + cr.id +" " + cr.name);
         }
     }
+    
+    
     /**
      * Get element through ForEach
      */

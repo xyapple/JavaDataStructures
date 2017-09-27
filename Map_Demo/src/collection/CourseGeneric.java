@@ -22,6 +22,7 @@ public class CourseGeneric {
         }
     }
     
+    
     public void testChild(){
         ChildCourse ccr = new ChildCourse();
         ccr.id="3";
