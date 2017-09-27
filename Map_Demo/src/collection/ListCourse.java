@@ -56,6 +56,7 @@ public class ListCourse {
         System.out.println("Total Courses(through For Loop):");
         int size = courseToselect.size();
         for(int i = 0; i <size; i++){
+            //强行转换
             Course cr = (Course) courseToselect.get(i);
             System.out.println("Courses: " + cr.id +" " + cr.name);
             
