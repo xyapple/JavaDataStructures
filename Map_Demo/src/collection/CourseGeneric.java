@@ -22,10 +22,18 @@ public class CourseGeneric {
         }
     }
     
+    public void testChild(){
+        ChildCourse ccr = new ChildCourse();
+        ccr.id="3";
+        ccr.name = "ReactJS";
+        courses.add(ccr);
+    }
+    
     public static void main(String[] args) {
         CourseGeneric cg = new CourseGeneric();
         cg.testAdd();
         cg.testForEach();
-        
+        cg.testChild();
+        cg.testForEach();
     }
 }
