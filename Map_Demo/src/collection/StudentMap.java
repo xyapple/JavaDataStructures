@@ -44,6 +44,61 @@ public class StudentMap {
         }
         
     }
+    /**
+     * Delete student through Map
+     */
+    public void studentRemoveMap(){
+        System.out.println("Please enter student ID that you wanted to removed: ");
+       
+        while(true){
+            //get student id though user input
+            Scanner input = new Scanner(System.in);
+            String ID = input.next();
+            Student st = student.get(ID);
+            if(st == null){
+                System.out.println("Student ID is not in system: ");
+                continue;
+            }
+            student.remove(ID);
+            System.out.println("Student had been removed: "+ st.name);
+            break;
+        }
+    }
+    
+    /**
+     * Map entrySet to loop through Map
+     */
+    public void studentEntrySet() {
+        Set<Map.Entry<String, Student>> entrySet = student.entrySet();
+        for(Map.Entry<String, Student> entry: entrySet){
+            System.out.println("we get key "+ entry.getKey());
+            System.out.println("we get value " + entry.getValue().name);
+        }
+    }
+    /**
+     * Update Map
+     */
+    public void studentModify(){
+        System.out.println("Please enter ID that you want to modify: ");
+        Scanner input = new Scanner(System.in);
+        while(true){
+            
+            String ID = input.next();
+            Student st = student.get(ID);
+            if (st == null) {
+                System.out.println("Id is not in the system, try again: ");
+            continue;
+            }
+            System.out.println("Current student is: " + st.name);
+            System.out.println("Please enter new student name: ");
+            String name = input.next();
+            Student newStudent = new Student(ID, name);
+            //use put()
+            student.put(ID, newStudent);
+            System.out.println("Success");
+            break;
+        }
+    }
     
     /**
      * Map keySet()
@@ -66,7 +121,11 @@ public class StudentMap {
         StudentMap sm = new StudentMap();
         sm.AddStudent();
         sm.studentKeySet();
-    
+        //sm.studentRemoveMap();
+        //
+        sm.studentModify();
+        sm.studentEntrySet();
+        
     }
     
     
