@@ -72,7 +72,7 @@ public class ListCourse {
         Iterator it = courseToselect.iterator();
         while(it.hasNext()){
             Course cr = (Course) it.next();
-            System.out.println("Courses: " + cr.id +" " + cr.name);
+           System.out.println("Courses: " + cr.id +" " + cr.name);
         }
     }
     /**
