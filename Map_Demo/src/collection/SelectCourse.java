@@ -51,7 +51,24 @@ public class SelectCourse {
         
         for(int i = 0; i <3; i++){
             System.out.println("Please enter a course ID: ");
-            
+            String courseId = input.next();
+            for(Course cr : sc.courseToselect){
+                if(cr.id.equals(courseId)){
+                    student.courses.add(cr);
+                    /**
+                     * Set中，添加某个对象，无论添加多少次， 最终只会保留一个该对象（的引用）， 并且，保留的是第一次添加的那一个
+                     */
+                    // student.courses.add(null);
+                    student.courses.add(cr);
+                }
+            }
+        }
+        sc.courseForEachPrint(student);
+    }
+    public void courseForEachPrint(Student student){
+        System.out.println("Total number of selected: " + student.courses.size()+" course! ");
+        for(Course cr:student.courses){
+            System.out.println("Selected Courses: " + cr.id + " : " + cr.name);
         }
     }
     
