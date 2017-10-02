@@ -91,8 +91,6 @@ public class StudentManagement {
                 valid = false;
             }
             //check to see if student ID is not the system or not
-            System.out.println(studentList.first());
-            
             int i = studentList.size();
             while(i != 0){
                 if(studentID.equals(studentList.first().getStudentID())){
@@ -100,8 +98,11 @@ public class StudentManagement {
                     displayUserMenu();
                     break;
                 }
+                studentList.addLast(studentList.first());
+                studentList.removeFirst();
                 i--;
             }
+           
         } while (!valid);
     
         //Enter User email
@@ -318,13 +319,14 @@ public class StudentManagement {
             //Loop through the list
             int i = studentList.size();
             while(i != 0){
+                System.out.println(studentList.first().getStudentID());
                 if (studentID.equals(studentList.first().getStudentID())) {
                     System.out.println(studentList.first().printStudent());
                     printInfo = true;
                     break;
                 }
-                studentList.removeFirst();
                 studentList.addLast(studentList.first());
+                studentList.removeFirst();
                 i--;
             }
            
@@ -353,8 +355,9 @@ public class StudentManagement {
         int i = studentList.size();
         while(i != 0){
             System.out.println(studentList.first());
-            studentList.removeFirst();
             studentList.addLast(studentList.first());
+            studentList.removeFirst();
+    
             i--;
         }
         displayUserMenu();
