@@ -1,6 +1,7 @@
 package DoublyLinkedList;
 
 import java.io.IOException;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class StudentManagement {
@@ -54,7 +55,7 @@ public class StudentManagement {
                     updateGPA();
                     break;
                 case 4:
-                   // findStudent();
+                    findStudent();
                 case 5:
                     displayAll();
                 case 6:
@@ -300,20 +301,22 @@ public class StudentManagement {
                 System.out.println("Student ID cannot be empty. Try Again: ");
                 valid = false;
             }
-        } while (!valid);
-        int i = studentList.size();
-        while (i != 0) {
-            //Iterating through the SinglyLinkedList
-            if (studentID.equals(studentList.first().getStudentID())) {
-                System.out.println(studentList.first().printStudent());
-                printInfo = true;
-                break;
+           // int i = studentList.size();
+            while (studentList.last() != studentList.first()) {
+                //Iterating through the SinglyLinkedList
+                if (studentID.equals(studentList.last().getStudentID())) {
+                    System.out.println(studentList.first().printStudent());
+                    printInfo = true;
+                    break;
+                }
+               studentList.addLast(studentList.first());
+                //i--;
             }
-            i--;
-        }
-        if (!printInfo) {
-            System.out.println("No student with the given Student ID.");
-        }
+            if (!printInfo) {
+                System.out.println("No student with the given Student ID.");
+            }
+        } while (!valid);
+    
         displayUserMenu();
         
     }
@@ -332,11 +335,12 @@ public class StudentManagement {
         System.out.println("Number of students currently in the list is: " + studentList.size());
         //Loop through the list
         int i = studentList.size();
-        while (i != 0) {
-            System.out.println(studentList);
+        while(i != 0){
+            System.out.println(studentList.last());
+            studentList.removeLast();
+            studentList.addFirst(studentList.last());
             i--;
         }
-    
         displayUserMenu();
     }
 }
