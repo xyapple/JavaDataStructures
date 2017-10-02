@@ -89,16 +89,18 @@ public class StudentManagement {
                 System.out.println("Student ID cannot be empty. Try again: ");
                 valid = false;
             }
-           
-        } while (!valid);
-        //check to see if student ID is not the system or not
-        while(studentList.first() != null){
-            if(studentID.equals(studentList.first().getStudentID())){
-                System.out.println("Student ID " + studentID + " had been in the system.");
-                displayUserMenu();
-                break;
+            //check to see if student ID is not the system or not
+            System.out.println(studentList.first());
+            int i = studentList.size();
+            while(i != 0){
+                if(studentID.equals(studentList.first().getStudentID())){
+                    System.out.println("Student ID " + studentID + " had been in the system.");
+                    displayUserMenu();
+                    break;
+                }
+                i--;
             }
-        }
+        } while (!valid);
     
         //Enter User email
     
@@ -107,8 +109,6 @@ public class StudentManagement {
         String email = userInput.nextLine();
     
         // Enter User age
-    
-    
         System.out.println("Enter Student age: ");
         int age = 0;
         do {
