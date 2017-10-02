@@ -92,6 +92,7 @@ public class StudentManagement {
             }
             //check to see if student ID is not the system or not
             System.out.println(studentList.first());
+            
             int i = studentList.size();
             while(i != 0){
                 if(studentID.equals(studentList.first().getStudentID())){
@@ -197,14 +198,24 @@ public class StudentManagement {
         } while (!valid);
         
         // Check to see if the student ID is in the system
+        // Check to see if the student ID is in the system
+        boolean contain = false;
         int i = studentList.size();
-           while(i != 0){
-               if(studentID.equals(studentList.first().getStudentID())){
-                   studentList.removeFirst();
-                   break;
-               }
-               i--;
-           }
+        while(i != 0){
+            if (studentID.equals(studentList.first().getStudentID())) {
+                contain = true;
+                break;
+            }
+            studentList.removeFirst();
+            studentList.addLast(studentList.first());
+            i--;
+        }
+        if(contain){
+            studentList.removeFirst();
+            System.out.println("Student ID " + studentID + " had been removed.");
+        }else {
+            System.out.println("No such student in the system.");
+        }
         
         displayUserMenu();
     }
@@ -237,13 +248,16 @@ public class StudentManagement {
         // Check to see if the student ID is in the system
         boolean contain = false;
         int i = studentList.size();
-         while (i != 0) {
-            if(studentID.equals(studentList.first().getStudentID())){
+        while(i != 0){
+            if (studentID.equals(studentList.first().getStudentID())) {
                 contain = true;
                 break;
             }
-            i --;
+            studentList.removeFirst();
+            studentList.addLast(studentList.first());
+            i--;
         }
+        
             //if the studentID is != to head element, put it into the newSList3D List
             if (contain) {
                     //prompt user to enter GPA
