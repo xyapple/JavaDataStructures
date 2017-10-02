@@ -83,21 +83,22 @@ public class StudentManagement {
         String studentID;
         do {
             studentID = userInput.nextLine();
-            if (studentID.equals("")) {
+            if (!studentID.equals("")) {
                 valid = true;
             } else {
                 System.out.println("Student ID cannot be empty. Try again: ");
+                valid = false;
             }
-            //check to see if student ID is not the system or not
-           while(studentList.first() != null){
+           
+        } while (!valid);
+        //check to see if student ID is not the system or not
+        while(studentList.first() != null){
             if(studentID.equals(studentList.first().getStudentID())){
                 System.out.println("Student ID " + studentID + " had been in the system.");
                 displayUserMenu();
                 break;
             }
-           }
-            
-        } while (!valid);
+        }
     
         //Enter User email
     
@@ -326,7 +327,6 @@ public class StudentManagement {
         }
     
         System.out.println("Number of students currently in the list is: " + studentList.size());
-    
         //Loop through the list
         while (studentList.first() != null) {
             System.out.println(studentList.first().printStudent());
