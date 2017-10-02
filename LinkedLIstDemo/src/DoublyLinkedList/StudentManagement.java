@@ -301,17 +301,19 @@ public class StudentManagement {
                 System.out.println("Student ID cannot be empty. Try Again: ");
                 valid = false;
             }
-           // int i = studentList.size();
-            while (studentList.last() != studentList.first()) {
-                //Iterating through the SinglyLinkedList
-                if (studentID.equals(studentList.last().getStudentID())) {
+            //Loop through the list
+            int i = studentList.size();
+            while(i != 0){
+                if (studentID.equals(studentList.first().getStudentID())) {
                     System.out.println(studentList.first().printStudent());
                     printInfo = true;
                     break;
                 }
-               studentList.addLast(studentList.first());
-                //i--;
+                studentList.removeFirst();
+                studentList.addLast(studentList.first());
+                i--;
             }
+           
             if (!printInfo) {
                 System.out.println("No student with the given Student ID.");
             }
