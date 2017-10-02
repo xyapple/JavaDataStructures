@@ -199,7 +199,6 @@ public class StudentManagement {
         } while (!valid);
         
         // Check to see if the student ID is in the system
-        // Check to see if the student ID is in the system
         boolean contain = false;
         int i = studentList.size();
         while(i != 0){
@@ -207,8 +206,8 @@ public class StudentManagement {
                 contain = true;
                 break;
             }
-            studentList.removeFirst();
             studentList.addLast(studentList.first());
+            studentList.removeFirst();
             i--;
         }
         if(contain){
@@ -250,12 +249,14 @@ public class StudentManagement {
         boolean contain = false;
         int i = studentList.size();
         while(i != 0){
+            
             if (studentID.equals(studentList.first().getStudentID())) {
                 contain = true;
                 break;
             }
-            studentList.removeFirst();
             studentList.addLast(studentList.first());
+            studentList.removeFirst();
+           
             i--;
         }
         
@@ -319,7 +320,7 @@ public class StudentManagement {
             //Loop through the list
             int i = studentList.size();
             while(i != 0){
-                System.out.println(studentList.first().getStudentID());
+                //System.out.println(studentList.first().getStudentID());
                 if (studentID.equals(studentList.first().getStudentID())) {
                     System.out.println(studentList.first().printStudent());
                     printInfo = true;
