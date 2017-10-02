@@ -336,9 +336,9 @@ public class StudentManagement {
         //Loop through the list
         int i = studentList.size();
         while(i != 0){
-            System.out.println(studentList.last());
-            studentList.removeLast();
-            studentList.addFirst(studentList.last());
+            System.out.println(studentList.first());
+            studentList.removeFirst();
+            studentList.addLast(studentList.first());
             i--;
         }
         displayUserMenu();
