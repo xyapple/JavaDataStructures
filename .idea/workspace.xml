@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1ccff9-3b15-4e69-a3d8-c14a1ab0aa38" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Map_Demo/src/collection/StudentMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedLIstDemo/src/DoublyLinkedList/StudentManagement.java" afterPath="$PROJECT_DIR$/LinkedLIstDemo/src/DoublyLinkedList/StudentManagement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedLIstDemo/src/SinglyLinkedList/StudentManagement.java" afterPath="$PROJECT_DIR$/LinkedLIstDemo/src/SinglyLinkedList/StudentManagement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaOOP/catcherror/DrunkException.java" afterPath="$PROJECT_DIR$/src/JavaOOP/catcherror/DrunkException.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,47 +18,137 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StudentMap.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Map_Demo/src/collection/StudentMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#448#487#1" expanded="true" />
-                <element signature="e#496#506#1" expanded="true" />
-                <element signature="e#625#650#1" expanded="true" />
-                <element signature="e#728#757#1" expanded="true" />
-                <element signature="e#741#756#0" expanded="true" />
-                <element signature="e#741#756#0" expanded="true" />
-                <element signature="e#869#896#1" expanded="true" />
-                <element signature="e#952#994#1" expanded="true" />
-                <element signature="e#1050#1077#0" expanded="true" />
-                <element signature="e#1050#1077#0" expanded="true" />
-                <element signature="e#1050#1077#0" expanded="true" />
-                <element signature="e#1114#1156#0" expanded="true" />
-                <element signature="e#1136#1151#0" expanded="true" />
-                <element signature="e#1136#1151#0" expanded="true" />
-                <element signature="e#1114#1156#0" expanded="true" />
-                <element signature="e#1492#1530#1" expanded="true" />
-                <element signature="e#1558#1593#0" expanded="true" />
-                <element signature="e#1558#1593#0" expanded="true" />
-                <element signature="e#1620#1636#0" expanded="true" />
-                <element signature="e#1661#1697#1" expanded="true" />
-                <element signature="e#1674#1696#0" expanded="true" />
-                <element signature="e#1674#1696#0" expanded="true" />
-                <element signature="e#1761#1780#0" expanded="true" />
-                <element signature="e#1761#1780#0" expanded="true" />
-                <element signature="e#1871#1904#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.23952976">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="DoublyLinkedList.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/DoublyLinkedList/DoublyLinkedList.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-972">
+                  <caret line="108" column="14" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="14" />
+                  <folding>
+                    <element signature="e#4136#4159#0" expanded="true" />
+                    <element signature="e#4136#4159#0" expanded="true" />
+                    <element signature="e#4796#4805#0" expanded="true" />
+                    <element signature="e#4835#4851#0" expanded="true" />
+                    <element signature="e#4835#4864#0" expanded="true" />
+                    <element signature="e#5095#5104#0" expanded="true" />
+                    <element signature="e#5134#5151#0" expanded="true" />
+                    <element signature="e#5134#5164#0" expanded="true" />
+                    <element signature="e#5379#5380#0" expanded="true" />
+                    <element signature="e#5411#5427#0" expanded="true" />
+                    <element signature="e#5468#5469#0" expanded="true" />
+                    <element signature="e#5608#5609#0" expanded="true" />
+                    <element signature="e#5632#5649#0" expanded="true" />
+                    <element signature="e#5699#5700#0" expanded="true" />
+                    <element signature="e#5875#5884#0" expanded="true" />
+                    <element signature="e#5959#5975#0" expanded="true" />
+                    <element signature="e#6202#6211#0" expanded="true" />
+                    <element signature="e#6286#6303#0" expanded="true" />
+                    <element signature="e#6891#6947#1" expanded="true" />
+                    <element signature="e#6956#6983#0" expanded="true" />
+                    <element signature="e#6956#6983#0" expanded="true" />
+                    <element signature="e#6993#7018#0" expanded="true" />
+                    <element signature="e#6993#7018#0" expanded="true" />
+                    <element signature="e#7247#7284#1" expanded="true" />
+                    <element signature="e#7269#7283#0" expanded="true" />
+                    <element signature="e#7293#7328#1" expanded="true" />
+                    <element signature="e#7313#7327#0" expanded="true" />
+                    <element signature="e#7337#7367#0" expanded="true" />
+                    <element signature="e#7337#7367#0" expanded="true" />
+                    <element signature="e#7377#7407#0" expanded="true" />
+                    <element signature="e#7377#7407#0" expanded="true" />
+                    <element signature="e#7440#7457#0" expanded="true" />
+                    <element signature="e#7642#7684#1" expanded="true" />
+                    <element signature="e#7693#7725#1" expanded="true" />
+                    <element signature="e#7708#7724#0" expanded="true" />
+                    <element signature="e#7772#7800#0" expanded="true" />
+                    <element signature="e#7782#7799#0" expanded="true" />
+                    <element signature="e#7772#7800#0" expanded="true" />
+                    <element signature="e#7821#7835#0" expanded="true" />
+                    <element signature="e#7886#7901#0" expanded="true" />
+                    <element signature="e#7886#7901#0" expanded="true" />
+                    <element signature="e#7921#7935#0" expanded="true" />
+                    <element signature="e#7921#7935#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="StudentManagement.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/DoublyLinkedList/StudentManagement.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3000">
+                  <caret line="200" column="21" lean-forward="false" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#194#203#0" expanded="true" />
+                    <element signature="e#2411#2446#1" expanded="true" />
+                    <element signature="e#2458#2473#0" expanded="true" />
+                    <element signature="e#2458#2473#0" expanded="true" />
+                    <element signature="e#2759#2779#0" expanded="true" />
+                    <element signature="e#2759#2779#0" expanded="true" />
+                    <element signature="e#3055#3107#0" expanded="true" />
+                    <element signature="e#3072#3106#0" expanded="true" />
+                    <element signature="e#3055#3107#0" expanded="true" />
+                    <element signature="e#5360#5406#0" expanded="true" />
+                    <element signature="e#5360#5406#0" expanded="true" />
+                    <element signature="e#5632#5653#0" expanded="true" />
+                    <element signature="e#5871#5893#1" expanded="true" />
+                    <element signature="e#6031#6053#1" expanded="true" />
+                    <element signature="e#6142#6163#0" expanded="true" />
+                    <element signature="e#6142#6163#0" expanded="true" />
+                    <element signature="e#6142#6163#0" expanded="true" />
+                    <element signature="e#6493#6545#0" expanded="true" />
+                    <element signature="e#6510#6544#0" expanded="true" />
+                    <element signature="e#6493#6545#0" expanded="true" />
+                    <element signature="e#6923#6944#0" expanded="true" />
+                    <element signature="e#7112#7134#1" expanded="true" />
+                    <element signature="e#7272#7294#1" expanded="true" />
+                    <element signature="e#7383#7404#0" expanded="true" />
+                    <element signature="e#7383#7404#0" expanded="true" />
+                    <element signature="e#7383#7404#0" expanded="true" />
+                    <element signature="e#7685#7709#1" expanded="true" />
+                    <element signature="e#7772#7824#0" expanded="true" />
+                    <element signature="e#7789#7823#0" expanded="true" />
+                    <element signature="e#7772#7824#0" expanded="true" />
+                    <element signature="e#8105#8160#0" expanded="true" />
+                    <element signature="e#8105#8160#0" expanded="true" />
+                    <element signature="e#8183#8200#1" expanded="true" />
+                    <element signature="e#8436#8460#0" expanded="true" />
+                    <element signature="e#8436#8460#0" expanded="true" />
+                    <element signature="e#8436#8460#0" expanded="true" />
+                    <element signature="e#9101#9132#0" expanded="true" />
+                    <element signature="e#9101#9132#0" expanded="true" />
+                    <element signature="e#9173#9225#0" expanded="true" />
+                    <element signature="e#9173#9225#0" expanded="true" />
+                    <element signature="e#9300#9351#0" expanded="true" />
+                    <element signature="e#9300#9351#0" expanded="true" />
+                    <element signature="e#9615#9636#0" expanded="true" />
+                    <element signature="e#9795#9821#1" expanded="true" />
+                    <element signature="e#9839#9861#1" expanded="true" />
+                    <element signature="e#9986#10008#1" expanded="true" />
+                    <element signature="e#10097#10118#0" expanded="true" />
+                    <element signature="e#10097#10118#0" expanded="true" />
+                    <element signature="e#10097#10118#0" expanded="true" />
+                    <element signature="e#10447#10499#0" expanded="true" />
+                    <element signature="e#10464#10498#0" expanded="true" />
+                    <element signature="e#10447#10499#0" expanded="true" />
+                    <element signature="e#11009#11030#0" expanded="true" />
+                    <element signature="e#11213#11281#0" expanded="true" />
+                    <element signature="e#11213#11281#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,15 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Recursion/LinkedListReverserLoop.java" />
-        <option value="$PROJECT_DIR$/src/Recursion/Node.java" />
-        <option value="$PROJECT_DIR$/src/Recursion/LinkedListReverser.java" />
-        <option value="$PROJECT_DIR$/src/Recursion/LinkedListDeletor.java" />
-        <option value="$PROJECT_DIR$/src/Loop/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/JavaOOP/Telphone.java" />
-        <option value="$PROJECT_DIR$/src/JavaOOP/second/telphone/Telphone.java" />
-        <option value="$PROJECT_DIR$/src/JavaOOP/InitailTelphone.java" />
-        <option value="$PROJECT_DIR$/src/JavaOOP/telphone/InitailTelphone.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/NestClass.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/NestClass1.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/NestClass2.java" />
@@ -121,19 +205,27 @@
         <option value="$PROJECT_DIR$/src/JavaOOP/datetime2.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/usemath.java" />
         <option value="$PROJECT_DIR$/Map_Demo/src/collection/ChildCourse.java" />
-        <option value="$PROJECT_DIR$/Map_Demo/src/collection/Course.java" />
-        <option value="$PROJECT_DIR$/Map_Demo/src/collection/CourseGeneric.java" />
         <option value="$PROJECT_DIR$/Map_Demo/src/collection/Student.java" />
-        <option value="$PROJECT_DIR$/Map_Demo/src/collection/ListCourse.java" />
-        <option value="$PROJECT_DIR$/Map_Demo/src/collection/SelectCourse.java" />
         <option value="$PROJECT_DIR$/Map_Demo/src/collection/StudentMap.java" />
+        <option value="$PROJECT_DIR$/Map_Demo/src/collection/ListCourse.java" />
+        <option value="$PROJECT_DIR$/Map_Demo/src/collection/CourseGeneric.java" />
+        <option value="$PROJECT_DIR$/Map_Demo/src/collection/SelectCourse.java" />
+        <option value="$PROJECT_DIR$/Map_Demo/src/collection/Course.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/LinkedLIstDemo/src/SinglyLinkedList/Person.java" />
+        <option value="$PROJECT_DIR$/LinkedLIstDemo/src/SinglyLinkedList/Student.java" />
+        <option value="$PROJECT_DIR$/LinkedLIstDemo/src/SinglyLinkedList/SinglyLinkedList.java" />
+        <option value="$PROJECT_DIR$/LinkedLIstDemo/src/DoublyLinkedList/Person.java" />
+        <option value="$PROJECT_DIR$/LinkedLIstDemo/src/DoublyLinkedList/DoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/LinkedLIstDemo/src/DoublyLinkedList/Student.java" />
+        <option value="$PROJECT_DIR$/LinkedLIstDemo/src/SinglyLinkedList/StudentManagement.java" />
+        <option value="$PROJECT_DIR$/LinkedLIstDemo/src/DoublyLinkedList/StudentManagement.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="709" />
     <option name="y" value="23" />
-    <option name="width" value="715" />
+    <option name="width" value="1440" />
     <option name="height" value="805" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -152,8 +244,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,27 +258,32 @@
             <path>
               <item name="JavaDataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaDataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="Map_Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedLIstDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaDataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaDataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="Map_Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedLIstDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaDataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaDataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="Map_Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedLIstDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="DoublyLinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedLIstDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SinglyLinkedList" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,6 +292,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DoublyLinkedList" />
       <recent name="Loop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -212,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StudentMap">
+  <component name="RunManager" selected="Application.StudentManagement">
     <configuration name="CourseGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -268,6 +368,25 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Map_Demo" />
+      <envs />
+    </configuration>
+    <configuration name="StudentManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="SinglyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="SinglyLinkedList.StudentManagement" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LinkedLIstDemo" />
       <envs />
     </configuration>
     <configuration name="StudentMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -370,39 +489,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="usemath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="JavaOOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="JavaOOP.usemath" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaDataStructures" />
-      <envs />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.usemath" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ListCourse" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CourseGeneric" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SelectCourse" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StudentMap" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ListCourse" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CourseGeneric" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SelectCourse" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StudentMap" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StudentManagement" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StudentMap" />
+        <item index="0" class="java.lang.String" itemvalue="Application.StudentManagement" />
         <item index="1" class="java.lang.String" itemvalue="Application.SelectCourse" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CourseGeneric" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ListCourse" />
-        <item index="4" class="java.lang.String" itemvalue="Application.usemath" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StudentMap" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CourseGeneric" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ListCourse" />
       </list>
     </recent_temporary>
   </component>
@@ -416,104 +516,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506021731142</updated>
-    </task>
-    <task id="LOCAL-00006" summary="No more recursion, we are going to use loop to sovle the problem">
-      <created>1506042133860</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1506042133860</updated>
-    </task>
-    <task id="LOCAL-00007" summary="No more recursion, we are going to use loop to sovle the problem">
-      <created>1506045297746</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1506045297746</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Try with a large number and see can it be done.">
-      <created>1506046723425</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1506046723425</updated>
-    </task>
-    <task id="LOCAL-00009" summary="file cleanup">
-      <created>1506046816365</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1506046816365</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Delete the specific node (num)">
-      <created>1506047553665</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1506047553665</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Update the Head prestatement and keep trying the head.">
-      <created>1506047908736</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1506047908736</updated>
-    </task>
-    <task id="LOCAL-00012" summary="BinarySearch Divide and Conquer">
-      <created>1506089526902</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1506089526902</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Update the test case">
-      <created>1506089593013</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1506089593013</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Update the m limite to prevent stack overflow">
-      <created>1506121788102</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1506121788102</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Learn about Java OOP basced">
-      <created>1506263387382</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1506263387382</updated>
-    </task>
-    <task id="LOCAL-00016" summary="understanding static; public/private method">
-      <created>1506292256369</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1506292256369</updated>
-    </task>
-    <task id="LOCAL-00017" summary="use set/get">
-      <created>1506295345201</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1506295345201</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Add a sub-package inside the JavaOOP pacakge. Call the new method from the new package.">
-      <created>1506296881899</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1506296881899</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Deal the Nested Class">
-      <created>1506299060233</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1506299060233</updated>
     </task>
     <task id="LOCAL-00020" summary="Call the method inside the Nested Class">
       <created>1506299807559</created>
@@ -760,11 +762,109 @@
       <option name="project" value="LOCAL" />
       <updated>1506515749968</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Add student through HashMap()">
+      <created>1506522976531</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1506522976532</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Modify student info through Put() method">
+      <created>1506524059785</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1506524059785</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Check to see if the current course is in the course List">
+      <created>1506525458059</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1506525458059</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Overwrite the equals() in the Course Class then, the SelectCourse.java had been changed from 'false' to 'true'.">
+      <created>1506526151596</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1506526151597</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Add gitignore fire">
+      <created>1506883376556</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1506883376557</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Use the SinglyLinkedList class from Michael 'Data Structures and Algoriths in Java 6th edition'">
+      <created>1506883706710</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1506883706710</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Create the Student Class extend the Person Class">
+      <created>1506883937690</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1506883937690</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Create the Person Class which is the father of class">
+      <created>1506883987565</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1506883987565</updated>
+    </task>
+    <task id="LOCAL-00063" summary="StudentManagement Class provide 6 options for students: Add students; Remove students; Update GPA; Display selected student info; Display all students; Exit.">
+      <created>1506884739210</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1506884739211</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Used the DoublyLinkedList from Data Structure and Algorithms in Java 6th">
+      <created>1506887618621</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1506887618621</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Add Person and Student Data into the package">
+      <created>1506888861821</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1506888861821</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Add Person and Student Data into the package">
+      <created>1506889632863</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1506889632863</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Adding student remove; display method">
+      <created>1506902460227</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1506902460227</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Update GPA needs to have a Break in the method.">
+      <created>1506903548296</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1506903548297</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="937" y="0" width="503" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -773,14 +873,16 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31840795" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.79477614" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.02646638" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5261194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -791,28 +893,13 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5261194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Apply the polymorphism to the class" />
-    <MESSAGE value="Apply the abstract class" />
-    <MESSAGE value="Understand the try and catch" />
-    <MESSAGE value="Use the try...catch and try..catch..finally in the program" />
-    <MESSAGE value="Defined a Exception by myself, and use it in the try...catch" />
-    <MESSAGE value="use java to do data cleaning" />
-    <MESSAGE value="There are difference bettwen single quote and double quote." />
-    <MESSAGE value="Use StringBuilder" />
-    <MESSAGE value="example of Box and Unbox" />
-    <MESSAGE value="example of Date and Time" />
-    <MESSAGE value="example of Date and Time By Calender" />
-    <MESSAGE value="Use Math.XX" />
-    <MESSAGE value="Collection Demo: Student select Courses" />
     <MESSAGE value="Collection List element can be the same." />
     <MESSAGE value="Three different ways to get elements through list." />
     <MESSAGE value="Update the Course through courseModify()" />
@@ -825,78 +912,28 @@
     <MESSAGE value="Add the testChild() to test the ChildCourse." />
     <MESSAGE value="Create a SetCourse Class to select course." />
     <MESSAGE value="Create a SetCourse Class to select course by adding Course through the ArrayList()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a SetCourse Class to select course by adding Course through the ArrayList()" />
+    <MESSAGE value="Add student through HashMap()" />
+    <MESSAGE value="Modify student info through Put() method" />
+    <MESSAGE value="Check to see if the current course is in the course List" />
+    <MESSAGE value="Overwrite the equals() in the Course Class then, the SelectCourse.java had been changed from 'false' to 'true'." />
+    <MESSAGE value="Add gitignore fire" />
+    <MESSAGE value="Use the SinglyLinkedList class from Michael 'Data Structures and Algoriths in Java 6th edition'" />
+    <MESSAGE value="Create the Student Class extend the Person Class" />
+    <MESSAGE value="Create the Person Class which is the father of class" />
+    <MESSAGE value="StudentManagement Class provide 6 options for students: Add students; Remove students; Update GPA; Display selected student info; Display all students; Exit." />
+    <MESSAGE value="Used the DoublyLinkedList from Data Structure and Algorithms in Java 6th" />
+    <MESSAGE value="Add Person and Student Data into the package" />
+    <MESSAGE value="Adding student remove; display method" />
+    <MESSAGE value="Update GPA needs to have a Break in the method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update GPA needs to have a Break in the method." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Recursion/LinkedListReverserLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="76" lean-forward="false" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Recursion/LinkedListReverser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Recursion/LinkedListCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Recursion/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loop/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Recursion/LinkedListDeletor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaOOP/Telphone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaOOP/second/telphone/Telphone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaOOP/telphone/InitailTelphone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaOOP/NestClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1130,6 +1167,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Map_Demo/src/collection/StudentMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="106" column="10" lean-forward="true" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map_Demo/src/collection/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Map_Demo/src/collection/ChildCourse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1140,39 +1195,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Map_Demo/src/collection/CourseGeneric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        <state relative-caret-position="315">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map_Demo/src/collection/ListCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
           <folding>
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#638#674#1" expanded="true" />
-            <element signature="e#733#749#0" expanded="true" />
-            <element signature="e#733#749#0" expanded="true" />
+            <element signature="method#courseAdd#0;class#ListCourse#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map_Demo/src/collection/Course.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/SinglyLinkedList/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1034#1056#0" expanded="true" />
+            <element signature="e#1034#1056#0" expanded="true" />
+            <element signature="e#1034#1056#0" expanded="true" />
+            <element signature="e#1303#1456#0" expanded="true" />
+            <element signature="e#1316#1325#0" expanded="true" />
+            <element signature="e#1303#1456#0" expanded="true" />
+            <element signature="e#1303#1456#0" expanded="true" />
+            <element signature="e#1345#1359#0" expanded="true" />
+            <element signature="e#1303#1456#0" expanded="true" />
+            <element signature="e#1303#1456#0" expanded="true" />
+            <element signature="e#1377#1387#0" expanded="true" />
+            <element signature="e#1303#1456#0" expanded="true" />
+            <element signature="e#1303#1456#0" expanded="true" />
+            <element signature="e#1402#1410#0" expanded="true" />
+            <element signature="e#1303#1456#0" expanded="true" />
+            <element signature="e#1303#1456#0" expanded="true" />
+            <element signature="e#1427#1437#0" expanded="true" />
+            <element signature="e#1303#1456#0" expanded="true" />
+            <element signature="e#1303#1456#0" expanded="true" />
+            <element signature="e#1448#1456#0" expanded="true" />
+            <element signature="e#1303#1456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/SinglyLinkedList/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1250#1323#0" expanded="true" />
+            <element signature="e#1263#1272#0" expanded="true" />
+            <element signature="e#1250#1323#0" expanded="true" />
+            <element signature="e#1250#1323#0" expanded="true" />
+            <element signature="e#1290#1300#0" expanded="true" />
+            <element signature="e#1250#1323#0" expanded="true" />
+            <element signature="e#1250#1323#0" expanded="true" />
+            <element signature="e#1315#1323#0" expanded="true" />
+            <element signature="e#1250#1323#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Map_Demo/src/collection/SelectCourse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" column="77" lean-forward="false" selection-start-line="70" selection-start-column="77" selection-end-line="70" selection-end-column="77" />
+        <state relative-caret-position="570">
+          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#254#271#0" expanded="true" />
+            <element signature="e#325#375#1" expanded="true" />
             <element signature="e#384#411#0" expanded="true" />
             <element signature="e#384#411#0" expanded="true" />
+            <element signature="e#421#466#1" expanded="true" />
+            <element signature="e#435#465#0" expanded="true" />
             <element signature="e#444#465#0" expanded="true" />
             <element signature="e#444#465#0" expanded="true" />
+            <element signature="e#494#556#0" expanded="true" />
+            <element signature="e#494#556#0" expanded="true" />
+            <element signature="e#494#556#0" expanded="true" />
+            <element signature="e#494#556#0" expanded="true" />
+            <element signature="e#576#623#1" expanded="true" />
+            <element signature="e#671#717#1" expanded="true" />
+            <element signature="e#686#716#0" expanded="true" />
             <element signature="e#695#716#0" expanded="true" />
             <element signature="e#695#716#0" expanded="true" />
+            <element signature="e#745#809#0" expanded="true" />
+            <element signature="e#745#809#0" expanded="true" />
+            <element signature="e#745#809#0" expanded="true" />
+            <element signature="e#745#809#0" expanded="true" />
             <element signature="e#829#907#1" expanded="true" />
             <element signature="e#916#961#0" expanded="true" />
             <element signature="e#916#961#0" expanded="true" />
@@ -1191,93 +1334,287 @@
             <element signature="e#1294#1327#0" expanded="true" />
             <element signature="e#1294#1327#0" expanded="true" />
             <element signature="e#1294#1327#0" expanded="true" />
-            <element signature="e#1404#1441#1" expanded="true" />
-            <element signature="e#1538#1580#1" expanded="true" />
-            <element signature="e#1608#1658#0" expanded="true" />
-            <element signature="e#1608#1658#0" expanded="true" />
-            <element signature="e#1674#1713#1" expanded="true" />
-            <element signature="e#1735#1745#1" expanded="true" />
-            <element signature="e#1731#2264#0" expanded="true" />
-            <element signature="e#1731#2264#0" expanded="true" />
-            <element signature="e#1731#2264#0" expanded="true" />
-            <element signature="e#1832#1863#1" expanded="true" />
-            <element signature="e#1880#1889#0" expanded="true" />
-            <element signature="e#1931#1953#0" expanded="true" />
-            <element signature="e#1931#1953#0" expanded="true" />
-            <element signature="e#1976#1999#0" expanded="true" />
-            <element signature="e#1976#1999#0" expanded="true" />
-            <element signature="e#2198#2221#0" expanded="true" />
-            <element signature="e#2198#2221#0" expanded="true" />
-            <element signature="e#2391#2456#0" expanded="true" />
-            <element signature="e#2391#2456#0" expanded="true" />
-            <element signature="e#2471#2480#0" expanded="true" />
-            <element signature="e#2530#2576#0" expanded="true" />
-            <element signature="e#2530#2576#0" expanded="true" />
-            <element signature="e#2530#2576#0" expanded="true" />
-            <element signature="e#2530#2576#0" expanded="true" />
+            <element signature="e#1421#1459#1" expanded="true" />
+            <element signature="e#1437#1458#0" expanded="true" />
+            <element signature="e#1437#1458#0" expanded="true" />
+            <element signature="e#1487#1514#0" expanded="true" />
+            <element signature="e#1487#1514#0" expanded="true" />
+            <element signature="e#1544#1612#0" expanded="true" />
+            <element signature="e#1544#1612#0" expanded="true" />
+            <element signature="e#1544#1612#0" expanded="true" />
+            <element signature="e#1544#1612#0" expanded="true" />
+            <element signature="e#1648#1699#1" expanded="true" />
+            <element signature="e#1727#1754#0" expanded="true" />
+            <element signature="e#1727#1754#0" expanded="true" />
+            <element signature="e#1784#1854#0" expanded="true" />
+            <element signature="e#1784#1854#0" expanded="true" />
+            <element signature="e#1784#1854#0" expanded="true" />
+            <element signature="e#1784#1854#0" expanded="true" />
+            <element signature="e#1921#1958#1" expanded="true" />
+            <element signature="e#2953#3018#0" expanded="true" />
+            <element signature="e#2953#3018#0" expanded="true" />
+            <element signature="e#3033#3042#0" expanded="true" />
+            <element signature="e#3092#3138#0" expanded="true" />
+            <element signature="e#3092#3138#0" expanded="true" />
+            <element signature="e#3092#3138#0" expanded="true" />
+            <element signature="e#3092#3138#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map_Demo/src/collection/Student.java">
+    <entry file="file://$PROJECT_DIR$/Map_Demo/src/collection/Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="405">
+          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map_Demo/src/collection/ListCourse.java">
+    <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/SinglyLinkedList/SinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="74" column="11" lean-forward="false" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
+        <state relative-caret-position="315">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
           <folding>
-            <element signature="method#courseAdd#0;class#ListCourse#0" expanded="false" />
-            <element signature="e#2491#2525#0" expanded="true" />
-            <element signature="e#2491#2525#0" expanded="true" />
-            <element signature="e#2491#2525#0" expanded="true" />
-            <element signature="e#2491#2525#0" expanded="true" />
-            <element signature="e#2904#2938#0" expanded="true" />
-            <element signature="e#2904#2938#0" expanded="true" />
-            <element signature="e#2904#2938#0" expanded="true" />
-            <element signature="e#2904#2938#0" expanded="true" />
+            <element signature="e#0#8605#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map_Demo/src/collection/StudentMap.java">
+    <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/DoublyLinkedList/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+        <state relative-caret-position="60">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/DoublyLinkedList/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/SinglyLinkedList/StudentManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="380" column="4" lean-forward="true" selection-start-line="331" selection-start-column="4" selection-end-line="380" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#448#487#1" expanded="true" />
-            <element signature="e#496#506#1" expanded="true" />
-            <element signature="e#625#650#1" expanded="true" />
-            <element signature="e#728#757#1" expanded="true" />
-            <element signature="e#741#756#0" expanded="true" />
-            <element signature="e#741#756#0" expanded="true" />
-            <element signature="e#869#896#1" expanded="true" />
-            <element signature="e#952#994#1" expanded="true" />
-            <element signature="e#1050#1077#0" expanded="true" />
-            <element signature="e#1050#1077#0" expanded="true" />
-            <element signature="e#1050#1077#0" expanded="true" />
-            <element signature="e#1114#1156#0" expanded="true" />
-            <element signature="e#1136#1151#0" expanded="true" />
-            <element signature="e#1136#1151#0" expanded="true" />
-            <element signature="e#1114#1156#0" expanded="true" />
-            <element signature="e#1492#1530#1" expanded="true" />
-            <element signature="e#1558#1593#0" expanded="true" />
-            <element signature="e#1558#1593#0" expanded="true" />
-            <element signature="e#1620#1636#0" expanded="true" />
-            <element signature="e#1661#1697#1" expanded="true" />
-            <element signature="e#1674#1696#0" expanded="true" />
-            <element signature="e#1674#1696#0" expanded="true" />
-            <element signature="e#1761#1780#0" expanded="true" />
-            <element signature="e#1761#1780#0" expanded="true" />
-            <element signature="e#1871#1904#1" expanded="true" />
+            <element signature="e#249#258#0" expanded="true" />
+            <element signature="e#717#736#1" expanded="true" />
+            <element signature="e#2549#2584#1" expanded="true" />
+            <element signature="e#2597#2612#0" expanded="true" />
+            <element signature="e#2597#2612#0" expanded="true" />
+            <element signature="e#2901#2922#0" expanded="true" />
+            <element signature="e#2901#2922#0" expanded="true" />
+            <element signature="e#2901#2922#0" expanded="true" />
+            <element signature="e#3113#3174#1" expanded="true" />
+            <element signature="e#3190#3209#0" expanded="true" />
+            <element signature="e#3493#3553#0" expanded="true" />
+            <element signature="e#3510#3537#0" expanded="true" />
+            <element signature="e#3510#3552#0" expanded="true" />
+            <element signature="e#3493#3553#0" expanded="true" />
+            <element signature="e#3596#3650#0" expanded="true" />
+            <element signature="e#3596#3650#0" expanded="true" />
+            <element signature="e#3770#3794#0" expanded="true" />
+            <element signature="e#3948#3984#1" expanded="true" />
+            <element signature="e#4097#4109#1" expanded="true" />
+            <element signature="e#4279#4299#0" expanded="true" />
+            <element signature="e#4279#4299#0" expanded="true" />
+            <element signature="e#4279#4299#0" expanded="true" />
+            <element signature="e#4940#4972#1" expanded="true" />
+            <element signature="e#5061#5078#1" expanded="true" />
+            <element signature="e#5258#5282#0" expanded="true" />
+            <element signature="e#5258#5282#0" expanded="true" />
+            <element signature="e#5258#5282#0" expanded="true" />
+            <element signature="e#5789#5860#1" expanded="true" />
+            <element signature="method#removeStudent#0;class#StudentManagement#0" expanded="false" />
+            <element signature="e#6151#6172#0" expanded="true" />
+            <element signature="e#6390#6412#1" expanded="true" />
+            <element signature="e#6550#6572#1" expanded="true" />
+            <element signature="e#6661#6682#0" expanded="true" />
+            <element signature="e#6661#6682#0" expanded="true" />
+            <element signature="e#6661#6682#0" expanded="true" />
+            <element signature="e#6904#6965#0" expanded="true" />
+            <element signature="e#7012#7074#0" expanded="true" />
+            <element signature="e#7458#7521#0" expanded="true" />
+            <element signature="e#7458#7521#0" expanded="true" />
+            <element signature="e#7477#7504#0" expanded="true" />
+            <element signature="e#7477#7519#0" expanded="true" />
+            <element signature="e#7458#7521#0" expanded="true" />
+            <element signature="e#7561#7588#0" expanded="true" />
+            <element signature="e#7645#7694#0" expanded="true" />
+            <element signature="e#7645#7694#0" expanded="true" />
+            <element signature="e#7740#7764#0" expanded="true" />
+            <element signature="method#updateGPA#0;class#StudentManagement#0" expanded="false" />
+            <element signature="e#8268#8289#0" expanded="true" />
+            <element signature="e#8448#8470#1" expanded="true" />
+            <element signature="e#8608#8630#1" expanded="true" />
+            <element signature="e#8719#8740#0" expanded="true" />
+            <element signature="e#8719#8740#0" expanded="true" />
+            <element signature="e#8719#8740#0" expanded="true" />
+            <element signature="e#9098#9159#0" expanded="true" />
+            <element signature="e#9206#9268#0" expanded="true" />
+            <element signature="e#9738#9801#0" expanded="true" />
+            <element signature="e#9738#9801#0" expanded="true" />
+            <element signature="e#9757#9784#0" expanded="true" />
+            <element signature="e#9757#9799#0" expanded="true" />
+            <element signature="e#9738#9801#0" expanded="true" />
+            <element signature="e#9858#9885#0" expanded="true" />
+            <element signature="e#9923#9974#0" expanded="true" />
+            <element signature="e#9923#9974#0" expanded="true" />
+            <element signature="e#10091#10146#0" expanded="true" />
+            <element signature="e#10091#10146#0" expanded="true" />
+            <element signature="e#10165#10182#1" expanded="true" />
+            <element signature="e#10410#10434#0" expanded="true" />
+            <element signature="e#10410#10434#0" expanded="true" />
+            <element signature="e#10410#10434#0" expanded="true" />
+            <element signature="e#11035#11062#0" expanded="true" />
+            <element signature="e#11035#11074#0" expanded="true" />
+            <element signature="e#11035#11074#0" expanded="true" />
+            <element signature="e#11111#11163#0" expanded="true" />
+            <element signature="e#11111#11163#0" expanded="true" />
+            <element signature="e#11210#11234#0" expanded="true" />
+            <element signature="method#findStudent#0;class#StudentManagement#0" expanded="false" />
+            <element signature="e#11511#11532#0" expanded="true" />
+            <element signature="e#11691#11717#1" expanded="true" />
+            <element signature="e#11735#11757#1" expanded="true" />
+            <element signature="e#11882#11904#1" expanded="true" />
+            <element signature="e#11993#12014#0" expanded="true" />
+            <element signature="e#11993#12014#0" expanded="true" />
+            <element signature="e#11993#12014#0" expanded="true" />
+            <element signature="e#12236#12297#0" expanded="true" />
+            <element signature="e#12635#12695#0" expanded="true" />
+            <element signature="e#12652#12679#0" expanded="true" />
+            <element signature="e#12652#12694#0" expanded="true" />
+            <element signature="e#12635#12695#0" expanded="true" />
+            <element signature="e#12734#12761#0" expanded="true" />
+            <element signature="e#12879#12903#0" expanded="true" />
+            <element signature="e#13277#13298#0" expanded="true" />
+            <element signature="e#13485#13553#0" expanded="true" />
+            <element signature="e#13485#13553#0" expanded="true" />
+            <element signature="e#13611#13672#1" expanded="true" />
+            <element signature="e#13943#13970#0" expanded="true" />
+            <element signature="e#14017#14041#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/DoublyLinkedList/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-972">
+          <caret line="108" column="14" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="14" />
+          <folding>
+            <element signature="e#4136#4159#0" expanded="true" />
+            <element signature="e#4136#4159#0" expanded="true" />
+            <element signature="e#4796#4805#0" expanded="true" />
+            <element signature="e#4835#4851#0" expanded="true" />
+            <element signature="e#4835#4864#0" expanded="true" />
+            <element signature="e#5095#5104#0" expanded="true" />
+            <element signature="e#5134#5151#0" expanded="true" />
+            <element signature="e#5134#5164#0" expanded="true" />
+            <element signature="e#5379#5380#0" expanded="true" />
+            <element signature="e#5411#5427#0" expanded="true" />
+            <element signature="e#5468#5469#0" expanded="true" />
+            <element signature="e#5608#5609#0" expanded="true" />
+            <element signature="e#5632#5649#0" expanded="true" />
+            <element signature="e#5699#5700#0" expanded="true" />
+            <element signature="e#5875#5884#0" expanded="true" />
+            <element signature="e#5959#5975#0" expanded="true" />
+            <element signature="e#6202#6211#0" expanded="true" />
+            <element signature="e#6286#6303#0" expanded="true" />
+            <element signature="e#6891#6947#1" expanded="true" />
+            <element signature="e#6956#6983#0" expanded="true" />
+            <element signature="e#6956#6983#0" expanded="true" />
+            <element signature="e#6993#7018#0" expanded="true" />
+            <element signature="e#6993#7018#0" expanded="true" />
+            <element signature="e#7247#7284#1" expanded="true" />
+            <element signature="e#7269#7283#0" expanded="true" />
+            <element signature="e#7293#7328#1" expanded="true" />
+            <element signature="e#7313#7327#0" expanded="true" />
+            <element signature="e#7337#7367#0" expanded="true" />
+            <element signature="e#7337#7367#0" expanded="true" />
+            <element signature="e#7377#7407#0" expanded="true" />
+            <element signature="e#7377#7407#0" expanded="true" />
+            <element signature="e#7440#7457#0" expanded="true" />
+            <element signature="e#7642#7684#1" expanded="true" />
+            <element signature="e#7693#7725#1" expanded="true" />
+            <element signature="e#7708#7724#0" expanded="true" />
+            <element signature="e#7772#7800#0" expanded="true" />
+            <element signature="e#7782#7799#0" expanded="true" />
+            <element signature="e#7772#7800#0" expanded="true" />
+            <element signature="e#7821#7835#0" expanded="true" />
+            <element signature="e#7886#7901#0" expanded="true" />
+            <element signature="e#7886#7901#0" expanded="true" />
+            <element signature="e#7921#7935#0" expanded="true" />
+            <element signature="e#7921#7935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/DoublyLinkedList/StudentManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3000">
+          <caret line="200" column="21" lean-forward="false" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#194#203#0" expanded="true" />
+            <element signature="e#2411#2446#1" expanded="true" />
+            <element signature="e#2458#2473#0" expanded="true" />
+            <element signature="e#2458#2473#0" expanded="true" />
+            <element signature="e#2759#2779#0" expanded="true" />
+            <element signature="e#2759#2779#0" expanded="true" />
+            <element signature="e#3055#3107#0" expanded="true" />
+            <element signature="e#3072#3106#0" expanded="true" />
+            <element signature="e#3055#3107#0" expanded="true" />
+            <element signature="e#5360#5406#0" expanded="true" />
+            <element signature="e#5360#5406#0" expanded="true" />
+            <element signature="e#5632#5653#0" expanded="true" />
+            <element signature="e#5871#5893#1" expanded="true" />
+            <element signature="e#6031#6053#1" expanded="true" />
+            <element signature="e#6142#6163#0" expanded="true" />
+            <element signature="e#6142#6163#0" expanded="true" />
+            <element signature="e#6142#6163#0" expanded="true" />
+            <element signature="e#6493#6545#0" expanded="true" />
+            <element signature="e#6510#6544#0" expanded="true" />
+            <element signature="e#6493#6545#0" expanded="true" />
+            <element signature="e#6923#6944#0" expanded="true" />
+            <element signature="e#7112#7134#1" expanded="true" />
+            <element signature="e#7272#7294#1" expanded="true" />
+            <element signature="e#7383#7404#0" expanded="true" />
+            <element signature="e#7383#7404#0" expanded="true" />
+            <element signature="e#7383#7404#0" expanded="true" />
+            <element signature="e#7685#7709#1" expanded="true" />
+            <element signature="e#7772#7824#0" expanded="true" />
+            <element signature="e#7789#7823#0" expanded="true" />
+            <element signature="e#7772#7824#0" expanded="true" />
+            <element signature="e#8105#8160#0" expanded="true" />
+            <element signature="e#8105#8160#0" expanded="true" />
+            <element signature="e#8183#8200#1" expanded="true" />
+            <element signature="e#8436#8460#0" expanded="true" />
+            <element signature="e#8436#8460#0" expanded="true" />
+            <element signature="e#8436#8460#0" expanded="true" />
+            <element signature="e#9101#9132#0" expanded="true" />
+            <element signature="e#9101#9132#0" expanded="true" />
+            <element signature="e#9173#9225#0" expanded="true" />
+            <element signature="e#9173#9225#0" expanded="true" />
+            <element signature="e#9300#9351#0" expanded="true" />
+            <element signature="e#9300#9351#0" expanded="true" />
+            <element signature="e#9615#9636#0" expanded="true" />
+            <element signature="e#9795#9821#1" expanded="true" />
+            <element signature="e#9839#9861#1" expanded="true" />
+            <element signature="e#9986#10008#1" expanded="true" />
+            <element signature="e#10097#10118#0" expanded="true" />
+            <element signature="e#10097#10118#0" expanded="true" />
+            <element signature="e#10097#10118#0" expanded="true" />
+            <element signature="e#10447#10499#0" expanded="true" />
+            <element signature="e#10464#10498#0" expanded="true" />
+            <element signature="e#10447#10499#0" expanded="true" />
+            <element signature="e#11009#11030#0" expanded="true" />
+            <element signature="e#11213#11281#0" expanded="true" />
+            <element signature="e#11213#11281#0" expanded="true" />
           </folding>
         </state>
       </provider>

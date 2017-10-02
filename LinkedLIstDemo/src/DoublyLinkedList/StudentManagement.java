@@ -198,8 +198,8 @@ public class StudentManagement {
        while(studentList.first() != null){
            if(studentID.equals(studentList.first().getStudentID())){
                studentList.removeFirst();
+               break;
            }
-           //studentList.addLast(studentList.first());
        }
        
         //System.out.println(studentList);

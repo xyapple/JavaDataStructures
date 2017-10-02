@@ -328,6 +328,7 @@ public class StudentManagement {
         displayUserMenu();
         
     }
+    
     /**
      * find student/display one student
      */
