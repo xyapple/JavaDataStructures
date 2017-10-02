@@ -215,6 +215,7 @@ public class StudentManagement {
             System.out.println("There are no student info, please enter student data, by menu choice 1");
             displayUserMenu();
         }
+        
         boolean valid = false;
         
         //prompt user to enter id
@@ -233,41 +234,81 @@ public class StudentManagement {
         
         // Check to see if the student ID is in the system
         boolean contain = false;
-        if(studentID.equals(studentList.first().getStudentID())){
-            contain = true;
+         while (studentList.first() != null) {
+            if(studentID.equals(studentList.first().getStudentID())){
+                contain = true;
+                break;
+            }
         }
-        while (studentList.first() != null) {
             //if the studentID is != to head element, put it into the newSList3D List
-            if (!(studentID.equals(studentList.first().getStudentID()))) {
-                System.out.println("Student ID "+ studentID + " is not in the system.");
-                
-            }else{
-                //prompt user to enter GPA
-                System.out.println("Enter a New Student GPA for student ID : " + studentID);
-                double gpa = 0.0;
-                do {
-                    if (userInput.hasNextDouble()) {
-                        gpa = userInput.nextDouble();
-                        userInput.nextLine();
-                        
-                        if (gpa >= 0.0 && gpa <= 4.0) {
-                            valid = true;
+            if (contain) {
+                    //prompt user to enter GPA
+                    System.out.println("Enter a New Student GPA for student ID : " + studentID);
+                    double gpa = 0.0;
+                    do {
+                        if (userInput.hasNextDouble()) {
+                            gpa = userInput.nextDouble();
+                            userInput.nextLine();
+            
+                            if (gpa >= 0.0 && gpa <= 4.0) {
+                                valid = true;
+                            } else {
+                                System.out.println("Student GPA cannot be  be negative number or larger than 4. Try Again: ");
+                                valid = false;
+                            }
                         } else {
-                            System.out.println("Student GPA cannot be  be negative number or larger than 4. Try Again: ");
+                            System.out.println("Student GPA must be a number. Try again: ");
+                            userInput.nextLine();
                             valid = false;
                         }
-                    } else {
-                        System.out.println("Student GPA must be a number. Try again: ");
-                        userInput.nextLine();
-                        valid = false;
-                    }
-                    
-                } while (!valid);
-                //update user gpa
-                studentList.first().setGpa(gpa);
-                System.out.println("Student ID " + studentID + " GPA had been updated." );
+        
+                    } while (!valid);
+                    //update user gpa
+                    studentList.first().setGpa(gpa);
+                    System.out.println("Student ID " + studentID + " GPA had been updated." );
+                
+            }else{
+                System.out.println("Student ID "+ studentID + " is not in the system.");
             }
+        displayUserMenu();
+        
+    }
+    /**
+     * find student/display one student
+     */
+    private static void findStudent() throws IOException {
+        //check to see if the studentList is empty, if it is then return menu
+        if (studentList.isEmpty()) {
+            System.out.println("There are no student info, please enter student data, by menu choice 1");
+            displayUserMenu();
+        }
+        boolean printInfo = false;
+        
+        boolean valid = false;
+        //prompt user to enter id
+        System.out.println("Enter Student ID which you would like to review : ");
+        String studentID = "";
+        do {
+            studentID = userInput.nextLine();
             
+            if (!studentID.equals("")) {
+                valid = true;
+            } else {
+                System.out.println("Student ID cannot be empty. Try Again: ");
+                valid = false;
+            }
+        } while (!valid);
+        
+        while (studentList.first() != null) {
+            //Iterating through the SinglyLinkedList
+            if (studentID.equals(studentList.first().getStudentID())) {
+                System.out.println(studentList.first().printStudent());
+                printInfo = true;
+                break;
+            }
+        }
+        if (!printInfo) {
+            System.out.println("No student with the given Student ID.");
         }
         displayUserMenu();
         
