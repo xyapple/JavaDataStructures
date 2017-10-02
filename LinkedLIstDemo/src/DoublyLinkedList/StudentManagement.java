@@ -196,14 +196,14 @@ public class StudentManagement {
         } while (!valid);
         
         // Check to see if the student ID is in the system
-       while(studentList.first() != null){
-           if(studentID.equals(studentList.first().getStudentID())){
-               studentList.removeFirst();
-               break;
+        int i = studentList.size();
+           while(i != 0){
+               if(studentID.equals(studentList.first().getStudentID())){
+                   studentList.removeFirst();
+                   break;
+               }
+               i--;
            }
-       }
-       
-        //System.out.println(studentList);
         
         displayUserMenu();
     }
@@ -235,11 +235,13 @@ public class StudentManagement {
         
         // Check to see if the student ID is in the system
         boolean contain = false;
-         while (studentList.first() != null) {
+        int i = studentList.size();
+         while (i != 0) {
             if(studentID.equals(studentList.first().getStudentID())){
                 contain = true;
                 break;
             }
+            i --;
         }
             //if the studentID is != to head element, put it into the newSList3D List
             if (contain) {
@@ -299,14 +301,15 @@ public class StudentManagement {
                 valid = false;
             }
         } while (!valid);
-        
-        while (studentList.first() != null) {
+        int i = studentList.size();
+        while (i != 0) {
             //Iterating through the SinglyLinkedList
             if (studentID.equals(studentList.first().getStudentID())) {
                 System.out.println(studentList.first().printStudent());
                 printInfo = true;
                 break;
             }
+            i--;
         }
         if (!printInfo) {
             System.out.println("No student with the given Student ID.");
@@ -328,8 +331,10 @@ public class StudentManagement {
     
         System.out.println("Number of students currently in the list is: " + studentList.size());
         //Loop through the list
-        while (studentList.first() != null) {
-            System.out.println(studentList.first().printStudent());
+        int i = studentList.size();
+        while (i != 0) {
+            System.out.println(studentList);
+            i--;
         }
     
         displayUserMenu();
