@@ -9,6 +9,7 @@ public class BinarySearch {
         Scanner in = new Scanner(System.in);
         System.out.println("please enter a array: ");
         ArrayList user = new ArrayList();
+      
     }
     public static boolean binarySearch(int[] data, int target, int low, int high){
         if(low > high){
