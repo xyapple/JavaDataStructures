@@ -3,12 +3,15 @@ package Clone;
 
 import Clone.Person;
 
+import javax.security.auth.Subject;
+
 //The Student class is a subclass of Person
-public class Student extends Person{
+
+public class Student extends Person implements Cloneable{
     private String studentID;
     private String major;
     private double gpa;
-    
+   
     public Student(String name, String studentID, String email, int age, String major,
                    double gpa ) {
         super(name, email, age);
@@ -17,6 +20,7 @@ public class Student extends Person{
         this.major = major;
         this.gpa = gpa;
     }
+    
     
     public String getStudentID(){
         return this.studentID ;
@@ -42,6 +46,11 @@ public class Student extends Person{
         }
     }
     
+    //make the student deepClone
+    public Student deepCopy(){
+       Student clone = new Student(name, studentID,email,age,major,gpa);
+       return clone;
+    }
     
     public String printStudent()
     {

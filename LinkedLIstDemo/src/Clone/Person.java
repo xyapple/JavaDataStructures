@@ -2,9 +2,9 @@ package Clone;
 
 class Person {
     //Instance variables
-    private String name;
-    private String email;
-    private int age;
+    public String name;
+    public String email;
+    public int age;
     
     //constructor
     public Person(String name, String email, int age){
