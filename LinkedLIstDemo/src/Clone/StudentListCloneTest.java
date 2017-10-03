@@ -1,6 +1,6 @@
 package Clone;
 
-public class StudentListCloneTest {
+public class StudentListCloneTest extends StudentManagement{
     public static void main(String[] args) {
     SinglyLinkedList<Student> studentList = new SinglyLinkedList<>();
         Student student1 = new Student("1", "1", "1", 1, "1", 1);
@@ -13,5 +13,12 @@ public class StudentListCloneTest {
         studentList.addFirst(student3);
         studentList.addFirst(student4);
         studentList.addFirst(student5);
+        
+    SinglyLinkedList<Student> studentListClone = new SinglyLinkedList<>();
+        studentListClone= copyStudentList(studentList);
+       
+        System.out.println("studentList " + studentList);
+        System.out.println("studentListClone " + studentListClone);
     }
+    
 }
