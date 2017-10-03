@@ -413,13 +413,16 @@ public class StudentManagement {
      * Clone the each students
      */
     public static SinglyLinkedList<Student> copyStudentList(SinglyLinkedList<Student> studentList) {
-        //check it the studentList is null or not
-        if (studentList == null)
-            return null;
         //create a copystudentlist
         SinglyLinkedList<Student> studentListClone = new SinglyLinkedList<>();
     
-        //create a tem list to store all the student info
+        //check it the studentList is null or not
+        if (studentList.head == null)
+            studentListClone.head = null;
+       else {
+            studentListClone = new SinglyLinkedList<Student> (new SinglyLinkedList());
+        }
+       /* //create a tem list to store all the student info
         SinglyLinkedList<Student> temList1 = new SinglyLinkedList<>();
         //create a tem list to store all the student info
         SinglyLinkedList<Student> temList2 = new SinglyLinkedList<>();
@@ -428,21 +431,24 @@ public class StudentManagement {
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
-        while(temList1.head != null){
-        
-            temList2.addFirst(temList1.first());
-            temList1.head = temList1.head.getNext();
-        }
         try {
-            studentList = temList2.clone();
+            temList2 = studentList.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
-        while(temList2.head != null){
+        
+        while(temList1.head != null){
            
-            studentListClone.addFirst(temList2.first());
-           temList2.head = temList2.head.getNext();
+            studentListClone.addFirst(temList1.first());
+            temList1.head = temList1.head.getNext();
        }
+        while(temList2.head != null){
+        
+            studentListClone.head.setNext(studentListClone.head);
+            temList2.head = temList2.head.getNext();
+        }
+        */
+        
         return studentListClone;
        
    

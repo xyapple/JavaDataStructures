@@ -19,18 +19,21 @@ public class StudentListCloneTest extends StudentManagement{
         studentList.addFirst(student3);
         studentList.addFirst(student4);
         studentList.addFirst(student5);
-        
+       
         studentListClone= copyStudentList(studentList);
        
         System.out.println("studentList " + studentList);
         System.out.println("studentListClone " + studentListClone);
-        
+        System.out.println("studentListClone.getNext.getNext" + studentListClone.head.getNext().getNext().getElement());
+        System.out.println("studentListClone.first()" + studentListClone.first());
+
         //Update user Age
         try {
             updateAge();
         } catch (IOException e) {
             e.printStackTrace();
         }
+        
     
     }
     private static void updateAge() throws IOException {
