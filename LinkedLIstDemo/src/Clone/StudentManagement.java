@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.*;
 
 /**
- * Redo Homework2 by using the SinglyLinkedList
+ * HW 4 Clone
  */
 public class StudentManagement {
     
@@ -408,6 +408,21 @@ public class StudentManagement {
         displayUserMenu();
     }
     
+    /**
+     *
+     * Clone the each students
+     */
+    public static void copyStudentList(SinglyLinkedList<Student> studentList){
+        
+       SinglyLinkedList<Student> newStudentList = new SinglyLinkedList();
+       while(studentList.head != null){
+            newStudentList.addFirst(studentList.first());
+            studentList.head = studentList.head.getNext();
+       }
+        System.out.println("newStudentList " + newStudentList);
+        System.out.println("studentList " + studentList);
+       
+    }
     
     
 }
