@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class StudentManagement {
     
-    private static SinglyLinkedList<Student> studentList = new SinglyLinkedList<>();
+    private static SinglyLinkedList<Student> stlist = new SinglyLinkedList<>();
     private static Scanner userInput = new Scanner(System.in);
     public static boolean valid = false;
     
@@ -105,7 +105,7 @@ public class StudentManagement {
             SinglyLinkedList<Student> newSList1 = new SinglyLinkedList();
             if(newSList1.isEmpty()){
                 try {
-                    newSList1 = studentList.clone();
+                    newSList1 = stlist.clone();
                 } catch (CloneNotSupportedException e) {
                     e.printStackTrace();
                 }
@@ -188,8 +188,8 @@ public class StudentManagement {
         
         // Create student
         Student student = new Student(name, studentID, email, age, major, gpa);
-        
-        studentList.addFirst(student);
+    
+        stlist.addFirst(student);
         
         displayUserMenu();
     }
@@ -200,7 +200,7 @@ public class StudentManagement {
      */
     private static void removeStudent() throws IOException {
         //check to see if the studentList is empty, if it is then return menu
-        if (studentList.isEmpty()) {
+        if (stlist.isEmpty()) {
             System.out.println("There are no student info, please enter student data, by menu choice 1");
             displayUserMenu();
         }// Check to see if the student ID is in the system
@@ -224,7 +224,7 @@ public class StudentManagement {
         SinglyLinkedList<Clone.Student> newSList2D = new SinglyLinkedList();  //create a new linked list newSList2D
         //Clone the newSlist2
         try {
-            newSList2 = studentList.clone();
+            newSList2 = stlist.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
@@ -238,9 +238,9 @@ public class StudentManagement {
             }
             newSList2.head = newSList2.head.getNext();
         }
-        //Clone the newSlist2D to studentList
+        //Clone the newSlist2D to stlist
         try {
-            studentList=newSList2D.clone();
+            stlist=newSList2D.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
@@ -256,7 +256,7 @@ public class StudentManagement {
      */
     private static void updateGPA() throws IOException {
         //check to see if the studentList is empty, if it is then return menu
-        if (studentList.isEmpty()) {
+        if (stlist.isEmpty()) {
             System.out.println("There are no student info, please enter student data, by menu choice 1");
             displayUserMenu();
         }
@@ -283,7 +283,7 @@ public class StudentManagement {
         SinglyLinkedList<Student> newSList3D = new SinglyLinkedList();  //create a new linked list newSList3D
         //Clone the newSlistD
         try {
-            newSList3 = studentList.clone();
+            newSList3 = stlist.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
@@ -334,7 +334,7 @@ public class StudentManagement {
      */
     private static void findStudent() throws IOException {
         //check to see if the studentList is empty, if it is then return menu
-        if (studentList.isEmpty()) {
+        if (stlist.isEmpty()) {
             System.out.println("There are no student info, please enter student data, by menu choice 1");
             displayUserMenu();
         }
@@ -358,7 +358,7 @@ public class StudentManagement {
         SinglyLinkedList<Student> newSList4 = new SinglyLinkedList();//Create a new list newSList4
         //Clone the studentList into newSList4
         try {
-            newSList4 = studentList.clone();
+            newSList4 = stlist.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
@@ -385,18 +385,18 @@ public class StudentManagement {
      */
     private static void displayAll() throws IOException {
         //check to see if the studentList is empty, if it is then return menu
-        if (studentList.isEmpty()) {
+        if (stlist.isEmpty()) {
             System.out.println("There are no student info, please enter student data, by menu choice 1");
             displayUserMenu();
         }
         
-        System.out.println("Number of students currently in the list is: " + studentList.size());
+        System.out.println("Number of students currently in the list is: " + stlist.size());
         
         //create a new list newSList5
         SinglyLinkedList<Student> newSList5 = new SinglyLinkedList();
         //Crone the studentList into newSList5
         try {
-            newSList5 = studentList.clone();
+            newSList5 = stlist.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
@@ -412,16 +412,13 @@ public class StudentManagement {
      *
      * Clone the each students
      */
-    public static void copyStudentList(SinglyLinkedList<Student> studentList){
-        
-       SinglyLinkedList<Student> newStudentList = new SinglyLinkedList();
-       while(studentList.head != null){
-            newStudentList.addFirst(studentList.first());
-            studentList.head = studentList.head.getNext();
-       }
-        System.out.println("newStudentList " + newStudentList);
-        System.out.println("studentList " + studentList);
+    public static SinglyLinkedList<Student> copyStudentList(SinglyLinkedList<Student> studentList) {
        
+       while(stlist.head != null){
+           studentList.addFirst(stlist.first());
+           stlist.head = stlist.head.getNext();
+       }
+        return studentList;
     }
     
     
