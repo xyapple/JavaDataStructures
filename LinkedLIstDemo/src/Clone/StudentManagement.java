@@ -413,12 +413,39 @@ public class StudentManagement {
      * Clone the each students
      */
     public static SinglyLinkedList<Student> copyStudentList(SinglyLinkedList<Student> studentList) {
-       
-       while(stlist.head != null){
-           studentList.addFirst(stlist.first());
-           stlist.head = stlist.head.getNext();
+        //check it the studentList is null or not
+        if (studentList == null)
+            return null;
+        //create a copystudentlist
+        SinglyLinkedList<Student> studentListClone = new SinglyLinkedList<>();
+    
+        //create a tem list to store all the student info
+        SinglyLinkedList<Student> temList1 = new SinglyLinkedList<>();
+        //create a tem list to store all the student info
+        SinglyLinkedList<Student> temList2 = new SinglyLinkedList<>();
+        try {
+            temList1 = studentList.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        while(temList1.head != null){
+        
+            temList2.addFirst(temList1.first());
+            temList1.head = temList1.head.getNext();
+        }
+        try {
+            studentList = temList2.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        while(temList2.head != null){
+           
+            studentListClone.addFirst(temList2.first());
+           temList2.head = temList2.head.getNext();
        }
-        return studentList;
+        return studentListClone;
+       
+   
     }
     
     
