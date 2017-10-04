@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1ccff9-3b15-4e69-a3d8-c14a1ab0aa38" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Recursion/StringPermuted.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedLIstDemo/src/Clone/StudentListCloneTest.java" afterPath="$PROJECT_DIR$/LinkedLIstDemo/src/Clone/StudentListCloneTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedLIstDemo/src/Clone/StudentManagement.java" afterPath="$PROJECT_DIR$/LinkedLIstDemo/src/Clone/StudentManagement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaOOP/catcherror/DrunkException.java" afterPath="$PROJECT_DIR$/src/JavaOOP/catcherror/DrunkException.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,66 +15,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="StudentManagement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/Clone/StudentManagement.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="StringPermuted.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Recursion/StringPermuted.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="419" column="6" lean-forward="false" selection-start-line="419" selection-start-column="6" selection-end-line="423" selection-end-column="9" />
+            <state relative-caret-position="210">
+              <caret line="14" column="66" lean-forward="false" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
               <folding>
-                <element signature="e#3708#3732#0" expanded="true" />
-                <element signature="e#7389#7452#0" expanded="true" />
-                <element signature="e#7389#7452#0" expanded="true" />
-                <element signature="e#7389#7452#0" expanded="true" />
-                <element signature="e#7671#7695#0" expanded="true" />
-                <element signature="method#updateGPA#0;class#StudentManagement#0" expanded="false" />
-                <element signature="e#11121#11145#0" expanded="true" />
-                <element signature="e#12780#12804#0" expanded="true" />
-                <element signature="e#13502#13563#1" expanded="true" />
-                <element signature="e#13903#13927#0" expanded="true" />
-                <element signature="e#14184#14254#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SinglyLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/Clone/SinglyLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="194" column="30" lean-forward="false" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#8594#0" expanded="true" />
-                <element signature="e#7498#7551#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentListCloneTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/Clone/StudentListCloneTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="72" column="27" lean-forward="true" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1381#1434#0" expanded="true" />
-                <element signature="e#1381#1434#0" expanded="true" />
-                <element signature="e#3041#3104#0" expanded="true" />
-                <element signature="e#3041#3104#0" expanded="true" />
-                <element signature="e#3041#3104#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/Clone/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#130#173#1" expanded="true" />
+                <element signature="e#182#196#1" expanded="true" />
+                <element signature="e#205#237#1" expanded="true" />
+                <element signature="e#246#265#1" expanded="true" />
+                <element signature="e#352#362#1" expanded="true" />
+                <element signature="e#348#518#0" expanded="true" />
+                <element signature="e#348#518#0" expanded="true" />
+                <element signature="e#348#518#0" expanded="true" />
+                <element signature="e#397#428#1" expanded="true" />
+                <element signature="e#408#427#0" expanded="true" />
+                <element signature="e#408#427#0" expanded="true" />
+                <element signature="e#408#427#0" expanded="true" />
+                <element signature="e#445#462#0" expanded="true" />
+                <element signature="e#445#462#0" expanded="true" />
+                <element signature="e#445#462#0" expanded="true" />
+                <element signature="e#465#484#0" expanded="true" />
+                <element signature="e#465#484#0" expanded="true" />
+                <element signature="e#465#484#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,8 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/JavaOOP/extendclass/Animal.java" />
-        <option value="$PROJECT_DIR$/src/JavaOOP/extendclass/Inital.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/extendclass/Dog.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/polymorphism/Animal.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/polymorphism/Cat.java" />
@@ -154,18 +116,18 @@
         <option value="$PROJECT_DIR$/LinkedLIstDemo/src/DoublyLinkedList/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/LinkedLIstDemo/src/DoublyLinkedList/StudentManagement.java" />
         <option value="$PROJECT_DIR$/src/Recursion/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/LinkedLIstDemo/src/Clone/Student.java" />
         <option value="$PROJECT_DIR$/LinkedLIstDemo/src/Clone/SinglyLinkedList.java" />
         <option value="$PROJECT_DIR$/LinkedLIstDemo/src/Clone/StudentListCloneTest.java" />
+        <option value="$PROJECT_DIR$/LinkedLIstDemo/src/Clone/Person.java" />
+        <option value="$PROJECT_DIR$/LinkedLIstDemo/src/Clone/Student.java" />
         <option value="$PROJECT_DIR$/LinkedLIstDemo/src/Clone/StudentManagement.java" />
+        <option value="$PROJECT_DIR$/src/Recursion/StringPermuted.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="410" />
-    <option name="y" value="30" />
     <option name="width" value="1440" />
-    <option name="height" value="805" />
+    <option name="height" value="828" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -183,6 +145,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,24 +162,20 @@
             <path>
               <item name="JavaDataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaDataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedLIstDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaDataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaDataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedLIstDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Clone" type="462c0819:PsiDirectoryNode" />
+              <item name="Recursion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -451,20 +411,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506021731142</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Use Math.XX">
-      <created>1506364148583</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1506364148583</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Collection Demo: Student select Courses">
-      <created>1506367948571</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1506367948571</updated>
     </task>
     <task id="LOCAL-00043" summary="Collection List element can be the same.">
       <created>1506368151029</created>
@@ -795,7 +741,21 @@
       <option name="project" value="LOCAL" />
       <updated>1507052660260</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Still working on deep copy and the method in StudentManagement is not working">
+      <created>1507059946357</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1507059946357</updated>
+    </task>
+    <task id="LOCAL-00091" summary="deep copy is working">
+      <created>1507061604001</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1507061604001</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -804,7 +764,6 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -815,9 +774,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14377682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5261194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20171674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -828,15 +785,16 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5261194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create the Person Class which is the father of class" />
-    <MESSAGE value="StudentManagement Class provide 6 options for students: Add students; Remove students; Update GPA; Display selected student info; Display all students; Exit." />
     <MESSAGE value="Used the DoublyLinkedList from Data Structure and Algorithms in Java 6th" />
     <MESSAGE value="Add Person and Student Data into the package" />
     <MESSAGE value="Adding student remove; display method" />
@@ -860,7 +818,9 @@
     <MESSAGE value="Update the copyStudentList method inside the studentManagement class to have a return method." />
     <MESSAGE value="call copyStudentList method inside the StudentListCloneTest class to make a independ copy" />
     <MESSAGE value="Still working on deep copy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Still working on deep copy" />
+    <MESSAGE value="Still working on deep copy and the method in StudentManagement is not working" />
+    <MESSAGE value="deep copy is working" />
+    <option name="LAST_COMMIT_MESSAGE" value="deep copy is working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -869,13 +829,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/JavaOOP/extendclass/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaOOP/polymorphism/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1099,7 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1177,72 +1129,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#254#271#0" expanded="false" />
-            <element signature="e#325#375#1" expanded="false" />
-            <element signature="e#384#411#0" expanded="false" />
-            <element signature="e#384#411#0" expanded="false" />
-            <element signature="e#421#466#1" expanded="false" />
-            <element signature="e#435#465#0" expanded="false" />
-            <element signature="e#444#465#0" expanded="false" />
-            <element signature="e#444#465#0" expanded="false" />
-            <element signature="e#494#556#0" expanded="false" />
-            <element signature="e#494#556#0" expanded="false" />
-            <element signature="e#494#556#0" expanded="false" />
-            <element signature="e#494#556#0" expanded="false" />
-            <element signature="e#576#623#1" expanded="false" />
-            <element signature="e#671#717#1" expanded="false" />
-            <element signature="e#686#716#0" expanded="false" />
-            <element signature="e#695#716#0" expanded="false" />
-            <element signature="e#695#716#0" expanded="false" />
-            <element signature="e#745#809#0" expanded="false" />
-            <element signature="e#745#809#0" expanded="false" />
-            <element signature="e#745#809#0" expanded="false" />
-            <element signature="e#745#809#0" expanded="false" />
-            <element signature="e#829#907#1" expanded="false" />
-            <element signature="e#916#961#0" expanded="false" />
-            <element signature="e#916#961#0" expanded="false" />
-            <element signature="e#971#1017#1" expanded="false" />
-            <element signature="e#986#1016#0" expanded="false" />
-            <element signature="e#995#1016#0" expanded="false" />
-            <element signature="e#995#1016#0" expanded="false" />
-            <element signature="e#1026#1072#1" expanded="false" />
-            <element signature="e#1041#1071#0" expanded="false" />
-            <element signature="e#1050#1071#0" expanded="false" />
-            <element signature="e#1050#1071#0" expanded="false" />
-            <element signature="e#1194#1204#0" expanded="false" />
-            <element signature="e#1237#1262#1" expanded="false" />
-            <element signature="e#1249#1261#0" expanded="false" />
-            <element signature="e#1294#1327#0" expanded="false" />
-            <element signature="e#1294#1327#0" expanded="false" />
-            <element signature="e#1294#1327#0" expanded="false" />
-            <element signature="e#1294#1327#0" expanded="false" />
-            <element signature="e#1421#1459#1" expanded="false" />
-            <element signature="e#1437#1458#0" expanded="false" />
-            <element signature="e#1437#1458#0" expanded="false" />
-            <element signature="e#1487#1514#0" expanded="false" />
-            <element signature="e#1487#1514#0" expanded="false" />
-            <element signature="e#1544#1612#0" expanded="false" />
-            <element signature="e#1544#1612#0" expanded="false" />
-            <element signature="e#1544#1612#0" expanded="false" />
-            <element signature="e#1544#1612#0" expanded="false" />
-            <element signature="e#1648#1699#1" expanded="false" />
-            <element signature="e#1727#1754#0" expanded="false" />
-            <element signature="e#1727#1754#0" expanded="false" />
-            <element signature="e#1784#1854#0" expanded="false" />
-            <element signature="e#1784#1854#0" expanded="false" />
-            <element signature="e#1784#1854#0" expanded="false" />
-            <element signature="e#1784#1854#0" expanded="false" />
-            <element signature="e#1921#1958#1" expanded="false" />
-            <element signature="e#2953#3018#0" expanded="false" />
-            <element signature="e#2953#3018#0" expanded="false" />
-            <element signature="e#3033#3042#0" expanded="false" />
-            <element signature="e#3092#3138#0" expanded="false" />
-            <element signature="e#3092#3138#0" expanded="false" />
-            <element signature="e#3092#3138#0" expanded="false" />
-            <element signature="e#3092#3138#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1353,13 +1239,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/Clone/Person.java">
+    <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/Clone/StudentManagement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="52" selection-end-column="9" />
+        <state relative-caret-position="546">
+          <caret line="432" column="75" lean-forward="false" selection-start-line="432" selection-start-column="75" selection-end-line="432" selection-end-column="75" />
           <folding>
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
+            <element signature="method#updateGPA#0;class#StudentManagement#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1370,37 +1255,6 @@
           <caret line="194" column="30" lean-forward="false" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="30" />
           <folding>
             <element signature="e#0#8594#0" expanded="true" />
-            <element signature="e#7498#7551#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/Clone/StudentManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="419" column="6" lean-forward="false" selection-start-line="419" selection-start-column="6" selection-end-line="423" selection-end-column="9" />
-          <folding>
-            <element signature="e#3708#3732#0" expanded="true" />
-            <element signature="e#7389#7452#0" expanded="true" />
-            <element signature="e#7389#7452#0" expanded="true" />
-            <element signature="e#7389#7452#0" expanded="true" />
-            <element signature="e#7671#7695#0" expanded="true" />
-            <element signature="method#updateGPA#0;class#StudentManagement#0" expanded="false" />
-            <element signature="e#11121#11145#0" expanded="true" />
-            <element signature="e#12780#12804#0" expanded="true" />
-            <element signature="e#13502#13563#1" expanded="true" />
-            <element signature="e#13903#13927#0" expanded="true" />
-            <element signature="e#14184#14254#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/Clone/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#635#636#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1408,14 +1262,59 @@
     <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/Clone/StudentListCloneTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
-          <caret line="72" column="27" lean-forward="true" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+          <caret line="72" column="27" lean-forward="false" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1381#1434#0" expanded="true" />
-            <element signature="e#1381#1434#0" expanded="true" />
             <element signature="e#3041#3104#0" expanded="true" />
             <element signature="e#3041#3104#0" expanded="true" />
+            <element signature="e#3060#3087#0" expanded="true" />
+            <element signature="e#3060#3102#0" expanded="true" />
             <element signature="e#3041#3104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/Clone/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedLIstDemo/src/Clone/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion/StringPermuted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="66" lean-forward="false" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+          <folding>
+            <element signature="e#130#173#1" expanded="true" />
+            <element signature="e#182#196#1" expanded="true" />
+            <element signature="e#205#237#1" expanded="true" />
+            <element signature="e#246#265#1" expanded="true" />
+            <element signature="e#352#362#1" expanded="true" />
+            <element signature="e#348#518#0" expanded="true" />
+            <element signature="e#348#518#0" expanded="true" />
+            <element signature="e#348#518#0" expanded="true" />
+            <element signature="e#397#428#1" expanded="true" />
+            <element signature="e#408#427#0" expanded="true" />
+            <element signature="e#408#427#0" expanded="true" />
+            <element signature="e#408#427#0" expanded="true" />
+            <element signature="e#445#462#0" expanded="true" />
+            <element signature="e#445#462#0" expanded="true" />
+            <element signature="e#445#462#0" expanded="true" />
+            <element signature="e#465#484#0" expanded="true" />
+            <element signature="e#465#484#0" expanded="true" />
+            <element signature="e#465#484#0" expanded="true" />
           </folding>
         </state>
       </provider>
