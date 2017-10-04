@@ -13,17 +13,17 @@ public class StringPermuted {
     }
     
     private static void PrintPermutation(int k,String S, String U) {
-        
+        if (k == 0) {
+            System.out.println(S);  // base case
+        }  else {
             for (int i = 0; i < k; i++) {
                 // choose
                 String c = U.substring(i, i+1);
-                String newU = U.substring(0, i) + U.substring(i+1, k);        // remove firstLetter from s
-                String newChosen = S + c;
-                if (k == 1) {
-                    System.out.println(S);  // base case
-                } else {
+                String newU = U.substring(0, i) + U.substring(i+1, U.length());        // remove firstLetter from s
+                String newS = S + c;
+             
                     // explore
-                    PrintPermutation(k-1, newU, newChosen);
+                    PrintPermutation(k, newU, newS);
                 }
             }
         }

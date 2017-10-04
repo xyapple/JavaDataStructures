@@ -19,36 +19,24 @@
       <file leaf-file-name="StringPermuted.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Recursion/StringPermuted.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="270">
+              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding>
-                <element signature="e#396#406#1" expanded="true" />
-                <element signature="e#392#891#0" expanded="true" />
-                <element signature="e#392#891#0" expanded="true" />
-                <element signature="e#392#891#0" expanded="true" />
-                <element signature="e#441#472#1" expanded="true" />
-                <element signature="e#452#471#0" expanded="true" />
-                <element signature="e#452#471#0" expanded="true" />
-                <element signature="e#452#471#0" expanded="true" />
-                <element signature="e#502#519#0" expanded="true" />
-                <element signature="e#502#519#0" expanded="true" />
-                <element signature="e#502#519#0" expanded="true" />
-                <element signature="e#522#541#0" expanded="true" />
-                <element signature="e#522#541#0" expanded="true" />
-                <element signature="e#522#541#0" expanded="true" />
-                <element signature="e#652#667#0" expanded="true" />
-                <element signature="e#652#667#0" expanded="true" />
-                <element signature="e#703#720#0" expanded="true" />
-                <element signature="e#703#720#0" expanded="true" />
-                <element signature="e#703#720#0" expanded="true" />
-                <element signature="e#792#820#0" expanded="true" />
-                <element signature="e#792#820#0" expanded="true" />
-                <element signature="e#792#820#0" expanded="true" />
-                <element signature="e#837#854#0" expanded="true" />
-                <element signature="e#837#854#0" expanded="true" />
-                <element signature="e#837#854#0" expanded="true" />
-                <element signature="e#861#875#0" expanded="true" />
-                <element signature="e#861#875#0" expanded="true" />
+                <element signature="e#532#542#1" expanded="true" />
+                <element signature="e#527#899#0" expanded="true" />
+                <element signature="e#527#899#0" expanded="true" />
+                <element signature="e#527#899#0" expanded="true" />
+                <element signature="e#599#630#1" expanded="true" />
+                <element signature="e#610#629#0" expanded="true" />
+                <element signature="e#610#629#0" expanded="true" />
+                <element signature="e#610#629#0" expanded="true" />
+                <element signature="e#647#710#0" expanded="true" />
+                <element signature="e#661#678#0" expanded="true" />
+                <element signature="e#661#678#0" expanded="true" />
+                <element signature="e#661#678#0" expanded="true" />
+                <element signature="e#681#709#0" expanded="true" />
+                <element signature="e#681#709#0" expanded="true" />
+                <element signature="e#763#783#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -421,41 +409,6 @@
       <option name="presentableId" value="Default" />
       <updated>1506021731142</updated>
     </task>
-    <task id="LOCAL-00045" summary="Update the Course through courseModify()">
-      <created>1506432173308</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1506432173308</updated>
-    </task>
-    <task id="LOCAL-00046" summary="course remove method">
-      <created>1506432410078</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1506432410078</updated>
-    </task>
-    <task id="LOCAL-00047" summary="course removeAll method">
-      <created>1506432611792</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1506432611792</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Add Courses through ArrayList">
-      <created>1506472967512</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1506472967512</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Create a Child class of Course class; but error had shown">
-      <created>1506473120933</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1506473120933</updated>
-    </task>
     <task id="LOCAL-00050" summary="Add a no param constructor inside the Course class, it solved the errors.">
       <created>1506473290435</created>
       <option name="number" value="00050" />
@@ -764,7 +717,42 @@
       <option name="project" value="LOCAL" />
       <updated>1507145156322</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Still having problem">
+      <created>1507145303949</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1507145303949</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Still having problem with output">
+      <created>1507145658924</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1507145658924</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Still having problem with output; there is no out put">
+      <created>1507146136460</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1507146136460</updated>
+    </task>
+    <task id="LOCAL-00097" summary="k needs to be decrease which means i need a base case">
+      <created>1507146335022</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1507146335022</updated>
+    </task>
+    <task id="LOCAL-00098" summary="try to come up with a different way">
+      <created>1507146792307</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1507146792308</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -779,7 +767,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8370647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7624378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -804,11 +792,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding student remove; display method" />
-    <MESSAGE value="Update GPA needs to have a Break in the method." />
-    <MESSAGE value="Complete the DoublyLinkedList for the student project" />
-    <MESSAGE value="There is an issue at the addStudent method" />
-    <MESSAGE value="Fixed the issue at the addStudent method which is a dead loop." />
     <MESSAGE value="Found a issue at the display all student, which it only display first() element." />
     <MESSAGE value="Update the display method but there is still a bug" />
     <MESSAGE value="Fixed the display student bug" />
@@ -829,11 +812,36 @@
     <MESSAGE value="deep copy is working" />
     <MESSAGE value="working on with Java String" />
     <MESSAGE value="Exception in thread &quot;main&quot; java.lang.StringIndexOutOfBoundsException: String index out of range: 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception in thread &quot;main&quot; java.lang.StringIndexOutOfBoundsException: String index out of range: 3" />
+    <MESSAGE value="Still having problem" />
+    <MESSAGE value="Still having problem with output" />
+    <MESSAGE value="Still having problem with output; there is no out put" />
+    <MESSAGE value="k needs to be decrease which means i need a base case" />
+    <MESSAGE value="try to come up with a different way" />
+    <option name="LAST_COMMIT_MESSAGE" value="try to come up with a different way" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="28" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/StringPermuted.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/StringPermuted.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/StringPermuted.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="38" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1303,36 +1311,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Recursion/StringPermuted.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="270">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           <folding>
-            <element signature="e#396#406#1" expanded="true" />
-            <element signature="e#392#891#0" expanded="true" />
-            <element signature="e#392#891#0" expanded="true" />
-            <element signature="e#392#891#0" expanded="true" />
-            <element signature="e#441#472#1" expanded="true" />
-            <element signature="e#452#471#0" expanded="true" />
-            <element signature="e#452#471#0" expanded="true" />
-            <element signature="e#452#471#0" expanded="true" />
-            <element signature="e#502#519#0" expanded="true" />
-            <element signature="e#502#519#0" expanded="true" />
-            <element signature="e#502#519#0" expanded="true" />
-            <element signature="e#522#541#0" expanded="true" />
-            <element signature="e#522#541#0" expanded="true" />
-            <element signature="e#522#541#0" expanded="true" />
-            <element signature="e#652#667#0" expanded="true" />
-            <element signature="e#652#667#0" expanded="true" />
-            <element signature="e#703#720#0" expanded="true" />
-            <element signature="e#703#720#0" expanded="true" />
-            <element signature="e#703#720#0" expanded="true" />
-            <element signature="e#792#820#0" expanded="true" />
-            <element signature="e#792#820#0" expanded="true" />
-            <element signature="e#792#820#0" expanded="true" />
-            <element signature="e#837#854#0" expanded="true" />
-            <element signature="e#837#854#0" expanded="true" />
-            <element signature="e#837#854#0" expanded="true" />
-            <element signature="e#861#875#0" expanded="true" />
-            <element signature="e#861#875#0" expanded="true" />
+            <element signature="e#532#542#1" expanded="true" />
+            <element signature="e#527#899#0" expanded="true" />
+            <element signature="e#527#899#0" expanded="true" />
+            <element signature="e#527#899#0" expanded="true" />
+            <element signature="e#599#630#1" expanded="true" />
+            <element signature="e#610#629#0" expanded="true" />
+            <element signature="e#610#629#0" expanded="true" />
+            <element signature="e#610#629#0" expanded="true" />
+            <element signature="e#647#710#0" expanded="true" />
+            <element signature="e#661#678#0" expanded="true" />
+            <element signature="e#661#678#0" expanded="true" />
+            <element signature="e#661#678#0" expanded="true" />
+            <element signature="e#681#709#0" expanded="true" />
+            <element signature="e#681#709#0" expanded="true" />
+            <element signature="e#763#783#1" expanded="true" />
           </folding>
         </state>
       </provider>
