@@ -8,11 +8,15 @@ public class StringPermuted {
         String U = userInput.nextLine();
         String S = "";
         int k = U.length();*/
-        PrintPermutation(3, "", "ABC");
+        PrintPermutation("MARTY", "");
+        System.out.println();
         //PrintPermutation(k, S,U);
     }
-    
-    private static void PrintPermutation(int k,String S, String U) {
+    public static void PrintPermutation(String s) {
+        PrintPermutation(s, "");
+    }
+    private static void PrintPermutation(String U, String S) {
+        int k = U.length();
         if (k == 0) {
             System.out.println(S);  // base case
         }  else {
@@ -23,10 +27,11 @@ public class StringPermuted {
                 String newS = S + c;
              
                     // explore
-                    PrintPermutation(k, newU, newS);
+                    PrintPermutation( newU, newS);
                 }
             }
         }
+   
     }
     
 
