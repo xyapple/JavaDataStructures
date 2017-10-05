@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1ccff9-3b15-4e69-a3d8-c14a1ab0aa38" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Recursion/LongestUnivaluePath.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaOOP/catcherror/DrunkException.java" afterPath="$PROJECT_DIR$/src/JavaOOP/catcherror/DrunkException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Recursion/StringPermuted.java" afterPath="$PROJECT_DIR$/src/Recursion/StringPermuted.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,27 +16,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StringPermuted.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Recursion/StringPermuted.java">
+      <file leaf-file-name="LinkedListCombinations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Recursion/LinkedListCombinations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            <state relative-caret-position="35">
+              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestUnivaluePath.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Recursion/LongestUnivaluePath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
               <folding>
-                <element signature="e#532#542#1" expanded="true" />
-                <element signature="e#527#899#0" expanded="true" />
-                <element signature="e#527#899#0" expanded="true" />
-                <element signature="e#527#899#0" expanded="true" />
-                <element signature="e#599#630#1" expanded="true" />
-                <element signature="e#610#629#0" expanded="true" />
-                <element signature="e#610#629#0" expanded="true" />
-                <element signature="e#610#629#0" expanded="true" />
-                <element signature="e#647#710#0" expanded="true" />
-                <element signature="e#661#678#0" expanded="true" />
-                <element signature="e#661#678#0" expanded="true" />
-                <element signature="e#661#678#0" expanded="true" />
-                <element signature="e#681#709#0" expanded="true" />
-                <element signature="e#681#709#0" expanded="true" />
-                <element signature="e#763#783#1" expanded="true" />
+                <element signature="e#726#760#1" expanded="true" />
+                <element signature="e#773#809#1" expanded="true" />
+                <element signature="e#822#840#1" expanded="true" />
+                <element signature="e#853#872#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/JavaOOP/extendclass/Dog.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/polymorphism/Animal.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/polymorphism/Cat.java" />
         <option value="$PROJECT_DIR$/src/JavaOOP/polymorphism/Dog.java" />
@@ -119,12 +117,15 @@
         <option value="$PROJECT_DIR$/LinkedLIstDemo/src/Clone/Student.java" />
         <option value="$PROJECT_DIR$/LinkedLIstDemo/src/Clone/StudentManagement.java" />
         <option value="$PROJECT_DIR$/src/Recursion/StringPermuted.java" />
+        <option value="$PROJECT_DIR$/src/Recursion/LongestUnivaluePath.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="828" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="617" />
+    <option name="y" value="169" />
+    <option name="width" value="902" />
+    <option name="height" value="731" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -142,7 +143,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -171,8 +173,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -408,20 +409,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506021731142</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Add a no param constructor inside the Course class, it solved the errors.">
-      <created>1506473290435</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1506473290436</updated>
-    </task>
-    <task id="LOCAL-00051" summary="no error because we add a new constructor in the Course Class">
-      <created>1506473358389</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1506473358389</updated>
     </task>
     <task id="LOCAL-00052" summary="Add the testChild() to test the ChildCourse.">
       <created>1506473460272</created>
@@ -752,16 +739,29 @@
       <option name="project" value="LOCAL" />
       <updated>1507146792308</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Stockoverflow error">
+      <created>1507147088630</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1507147088631</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Java param order is very important!! Please do not forget that again!">
+      <created>1507147829441</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1507147829441</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="617" y="169" width="902" height="731" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -772,7 +772,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20171674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07906977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -784,6 +784,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5261194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -792,8 +793,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Found a issue at the display all student, which it only display first() element." />
-    <MESSAGE value="Update the display method but there is still a bug" />
     <MESSAGE value="Fixed the display student bug" />
     <MESSAGE value="Fixed the selected student bug" />
     <MESSAGE value="Problem with the whole logic! Need to fix the iterator issue" />
@@ -817,49 +816,17 @@
     <MESSAGE value="Still having problem with output; there is no out put" />
     <MESSAGE value="k needs to be decrease which means i need a base case" />
     <MESSAGE value="try to come up with a different way" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to come up with a different way" />
+    <MESSAGE value="Stockoverflow error" />
+    <MESSAGE value="Java param order is very important!! Please do not forget that again!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java param order is very important!! Please do not forget that again!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Recursion/StringPermuted.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Recursion/StringPermuted.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Recursion/StringPermuted.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="38" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/JavaOOP/polymorphism/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaOOP/polymorphism/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaOOP/polymorphism/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1076,39 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="e#582#583#0" expanded="false" />
-            <element signature="e#628#629#0" expanded="false" />
-            <element signature="e#671#672#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#783#784#0" expanded="false" />
-            <element signature="e#838#839#0" expanded="false" />
-            <element signature="e#891#892#0" expanded="false" />
-            <element signature="e#935#936#0" expanded="false" />
-            <element signature="e#977#978#0" expanded="false" />
-            <element signature="e#1034#1056#0" expanded="false" />
-            <element signature="e#1034#1056#0" expanded="false" />
-            <element signature="e#1034#1056#0" expanded="false" />
-            <element signature="e#1303#1456#0" expanded="false" />
-            <element signature="e#1316#1325#0" expanded="false" />
-            <element signature="e#1303#1456#0" expanded="false" />
-            <element signature="e#1303#1456#0" expanded="false" />
-            <element signature="e#1345#1359#0" expanded="false" />
-            <element signature="e#1303#1456#0" expanded="false" />
-            <element signature="e#1303#1456#0" expanded="false" />
-            <element signature="e#1377#1387#0" expanded="false" />
-            <element signature="e#1303#1456#0" expanded="false" />
-            <element signature="e#1303#1456#0" expanded="false" />
-            <element signature="e#1402#1410#0" expanded="false" />
-            <element signature="e#1303#1456#0" expanded="false" />
-            <element signature="e#1303#1456#0" expanded="false" />
-            <element signature="e#1427#1437#0" expanded="false" />
-            <element signature="e#1303#1456#0" expanded="false" />
-            <element signature="e#1303#1456#0" expanded="false" />
-            <element signature="e#1448#1456#0" expanded="false" />
-            <element signature="e#1303#1456#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1116,29 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="e#371#372#0" expanded="false" />
-            <element signature="e#398#399#0" expanded="false" />
-            <element signature="e#434#435#0" expanded="false" />
-            <element signature="e#462#463#0" expanded="false" />
-            <element signature="e#493#494#0" expanded="false" />
-            <element signature="e#519#520#0" expanded="false" />
-            <element signature="e#563#564#0" expanded="false" />
-            <element signature="e#595#596#0" expanded="false" />
-            <element signature="e#641#642#0" expanded="false" />
-            <element signature="e#675#676#0" expanded="false" />
-            <element signature="e#1232#1233#0" expanded="false" />
-            <element signature="e#1250#1323#0" expanded="false" />
-            <element signature="e#1263#1272#0" expanded="false" />
-            <element signature="e#1250#1323#0" expanded="false" />
-            <element signature="e#1250#1323#0" expanded="false" />
-            <element signature="e#1290#1300#0" expanded="false" />
-            <element signature="e#1250#1323#0" expanded="false" />
-            <element signature="e#1250#1323#0" expanded="false" />
-            <element signature="e#1315#1323#0" expanded="false" />
-            <element signature="e#1250#1323#0" expanded="false" />
-            <element signature="e#1329#1330#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1153,7 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1161,31 +1071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#558#559#0" expanded="false" />
-            <element signature="e#593#594#0" expanded="false" />
-            <element signature="e#626#627#0" expanded="false" />
-            <element signature="e#654#655#0" expanded="false" />
-            <element signature="e#685#686#0" expanded="false" />
-            <element signature="e#1129#1282#0" expanded="false" />
-            <element signature="e#1142#1151#0" expanded="false" />
-            <element signature="e#1129#1282#0" expanded="false" />
-            <element signature="e#1129#1282#0" expanded="false" />
-            <element signature="e#1171#1185#0" expanded="false" />
-            <element signature="e#1129#1282#0" expanded="false" />
-            <element signature="e#1129#1282#0" expanded="false" />
-            <element signature="e#1203#1213#0" expanded="false" />
-            <element signature="e#1129#1282#0" expanded="false" />
-            <element signature="e#1129#1282#0" expanded="false" />
-            <element signature="e#1228#1236#0" expanded="false" />
-            <element signature="e#1129#1282#0" expanded="false" />
-            <element signature="e#1129#1282#0" expanded="false" />
-            <element signature="e#1253#1263#0" expanded="false" />
-            <element signature="e#1129#1282#0" expanded="false" />
-            <element signature="e#1129#1282#0" expanded="false" />
-            <element signature="e#1274#1282#0" expanded="false" />
-            <element signature="e#1129#1282#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1193,13 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#371#372#0" expanded="false" />
-            <element signature="e#398#399#0" expanded="false" />
-            <element signature="e#434#435#0" expanded="false" />
-            <element signature="e#462#463#0" expanded="false" />
-            <element signature="e#519#520#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1207,9 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="256" column="53" lean-forward="false" selection-start-line="256" selection-start-column="53" selection-end-line="256" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1217,7 +1092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="607">
           <caret line="107" column="17" lean-forward="false" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1235,14 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
           <caret line="395" column="8" lean-forward="true" selection-start-line="395" selection-start-column="8" selection-end-line="395" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#249#258#0" expanded="true" />
-            <element signature="method#removeStudent#0;class#StudentManagement#0" expanded="false" />
-            <element signature="method#updateGPA#0;class#StudentManagement#0" expanded="false" />
-            <element signature="method#findStudent#0;class#StudentManagement#0" expanded="false" />
-            <element signature="e#13611#13672#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1250,9 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1261">
           <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#8605#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1260,9 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="432" column="75" lean-forward="false" selection-start-line="432" selection-start-column="75" selection-end-line="432" selection-end-column="75" />
-          <folding>
-            <element signature="method#updateGPA#0;class#StudentManagement#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1270,9 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="194" column="30" lean-forward="false" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#8594#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1280,14 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="72" column="27" lean-forward="false" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3041#3104#0" expanded="true" />
-            <element signature="e#3041#3104#0" expanded="true" />
-            <element signature="e#3060#3087#0" expanded="true" />
-            <element signature="e#3060#3102#0" expanded="true" />
-            <element signature="e#3041#3104#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1295,9 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
           <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1305,30 +1151,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Recursion/StringPermuted.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="225">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding>
-            <element signature="e#532#542#1" expanded="true" />
-            <element signature="e#527#899#0" expanded="true" />
-            <element signature="e#527#899#0" expanded="true" />
-            <element signature="e#527#899#0" expanded="true" />
-            <element signature="e#599#630#1" expanded="true" />
-            <element signature="e#610#629#0" expanded="true" />
-            <element signature="e#610#629#0" expanded="true" />
-            <element signature="e#610#629#0" expanded="true" />
-            <element signature="e#647#710#0" expanded="true" />
-            <element signature="e#661#678#0" expanded="true" />
-            <element signature="e#661#678#0" expanded="true" />
-            <element signature="e#661#678#0" expanded="true" />
-            <element signature="e#681#709#0" expanded="true" />
-            <element signature="e#681#709#0" expanded="true" />
-            <element signature="e#763#783#1" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion/LinkedListCombinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion/LongestUnivaluePath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <element signature="e#726#760#1" expanded="true" />
+            <element signature="e#773#809#1" expanded="true" />
+            <element signature="e#822#840#1" expanded="true" />
+            <element signature="e#853#872#1" expanded="true" />
           </folding>
         </state>
       </provider>
