@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1ccff9-3b15-4e69-a3d8-c14a1ab0aa38" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Recursion/LongestUnivaluePath.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaOOP/catcherror/DrunkException.java" afterPath="$PROJECT_DIR$/src/JavaOOP/catcherror/DrunkException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Recursion/LongestUnivaluePath.java" afterPath="$PROJECT_DIR$/src/Recursion/LongestUnivaluePath.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="LongestUnivaluePath.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Recursion/LongestUnivaluePath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+            <state relative-caret-position="413">
+              <caret line="31" column="51" lean-forward="false" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
               <folding>
                 <element signature="e#726#760#1" expanded="true" />
                 <element signature="e#773#809#1" expanded="true" />
@@ -122,8 +122,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="617" />
-    <option name="y" value="169" />
+    <option name="x" value="610" />
+    <option name="y" value="77" />
     <option name="width" value="902" />
     <option name="height" value="731" />
   </component>
@@ -409,13 +409,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506021731142</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Add the testChild() to test the ChildCourse.">
-      <created>1506473460272</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1506473460272</updated>
     </task>
     <task id="LOCAL-00053" summary="Create a SetCourse Class to select course.">
       <created>1506477734840</created>
@@ -753,11 +746,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507147829441</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Practice leetcode questions on recursion">
+      <created>1507245992267</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1507245992269</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="617" y="169" width="902" height="731" extended-state="0" />
+    <frame x="610" y="77" width="902" height="731" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -793,7 +793,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed the display student bug" />
     <MESSAGE value="Fixed the selected student bug" />
     <MESSAGE value="Problem with the whole logic! Need to fix the iterator issue" />
     <MESSAGE value="Fixed the selected  and display student info" />
@@ -818,7 +817,8 @@
     <MESSAGE value="try to come up with a different way" />
     <MESSAGE value="Stockoverflow error" />
     <MESSAGE value="Java param order is very important!! Please do not forget that again!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java param order is very important!! Please do not forget that again!" />
+    <MESSAGE value="Practice leetcode questions on recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice leetcode questions on recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1175,8 +1175,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Recursion/LongestUnivaluePath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        <state relative-caret-position="413">
+          <caret line="31" column="51" lean-forward="false" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
           <folding>
             <element signature="e#726#760#1" expanded="true" />
             <element signature="e#773#809#1" expanded="true" />

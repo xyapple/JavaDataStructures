@@ -20,7 +20,7 @@ public class LongestUnivaluePath {
             arrowLength(root);
             return ans;
         }
-        public int arrowLength(TreeNode root){
+        public int arrowLength(TreeNode node){
             if(node == null){
                 return 0;
             }
@@ -28,6 +28,9 @@ public class LongestUnivaluePath {
             int right = arrowLength(node.right);
             int arrowLeft = 0;
             int arrowRight = 0;
+            if(node.left != null && node.right.val == node.val){
+                arrowRight = arrowRight + left + 1;
+            }
             
             
         }
