@@ -45,31 +45,49 @@ public class LongestUnivaluePath {
       
     }*/
    class Solution{
+       int result = 0;
        public int longestUnivaluePath(TreeNode root){
-           if(root == null) return 0;
-           int val = 0;
-           int result = 0;
-           // calculate the left side of the tree
-           if(root.left != null && root.right.val == val){
-               result = 1 + dfs(root.left);
-           }
-           // calculate the right side of the tree
-           if(root.right != null && root.right.val == val){
-               result = 1 + dfs(root.right);
-           }
-           return Math.max(result, Math.max(longestUnivaluePath(root.left), longestUnivaluePath(root.right)));
-       }
-       public int dfs(TreeNode root){
-           if(root == null) return 0;
-           int val = root.val;
-           int result = 0;
-           if(root.left != null && root.right.val == val){
-               result = 1 + dfs(root.left);
-           }
-           if(root.right != null && root.right.val == val){
-               result = Math.max(result, 1+dfs(root.right));
-           }
+           dfs(root);
            return result;
+       }
+       private int dfs(TreeNode root){
+           if(root == null) {
+               return 0;
+           }
+           int left = dfs(root.left);
+           int right = dfs(root.right);
+           
+           if(root.left == null && root.right == null){
+               return 0;
+           }else if(root.left != null & root.right == null){
+               if(root.val == root.left.val){
+                   result = Math.max(result, left+1);
+                   return left + 1;
+               }else {
+                   return 0;
+               }
+           }
+           else if(root.left == null && root.right != null){
+               if(root.val == root.right.val){
+                   result = Math.max(result, right + 1);
+                   return right + 1;
+               }else {
+                   return 0;
+               }
+           } else {
+               if(root.val == root.left.val && root.val != root.right.val){
+                   result = Math.max(result, left+1);
+                   return left + 1;
+               } else if(root.val != root.left.val && root.val == root.right.val){
+                   result = Math.max(result, right+1);
+                   return right + 1;
+               } else if(root.val != root.left.val && root.val != root.right.val){
+                   return 0;
+               } else {
+                   result = Math.max(result, left+right+2);
+                   return Math.max(left, right) + 1;
+               }
+           }
        }
     }
     
