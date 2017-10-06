@@ -107,7 +107,16 @@ public class LongestUnivaluePath {
            return Math.max(result, Math.max(longestUnivaluePath(root.left), longestUnivaluePath((root.right))));
        }
        public int dfs(TreeNode root){
-       
+            if(root == null) return 0;
+            int result = 0;
+            int val  = root.val;
+            if(root.left != null && root.left.val == val){
+                result = 1 + dfs(root.left);
+            }
+            if(root.right != null && root.right.val == val){
+                result = 1 + dfs(root.left);
+            }
+            return result;
        }
    }
 }
