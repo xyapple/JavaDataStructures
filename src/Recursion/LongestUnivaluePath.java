@@ -102,7 +102,7 @@ public class LongestUnivaluePath {
                result = 1 + dfs(root.left);
            }
            if(root.right != null & root.right.val == val){
-               result = 1 + dfs(root.right);
+               result += 1 + dfs(root.right);
            }
            return Math.max(result, Math.max(longestUnivaluePath(root.left), longestUnivaluePath((root.right))));
        }
@@ -114,7 +114,7 @@ public class LongestUnivaluePath {
                 result = 1 + dfs(root.left);
             }
             if(root.right != null && root.right.val == val){
-                result = 1 + dfs(root.left);
+               result = Math.max(result, 1+dfs(root.right));
             }
             return result;
        }
