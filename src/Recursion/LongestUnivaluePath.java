@@ -46,7 +46,7 @@ public class LongestUnivaluePath {
     }*/
    
    //The output of this solution is wrong!
-   class Solution{
+  /* class Solution{
        int result = 0;
        public int longestUnivaluePath(TreeNode root){
            dfs(root);
@@ -91,6 +91,23 @@ public class LongestUnivaluePath {
                }
            }
        }
-    }
-    
+    }*/
+    //another solution
+   class Solution{
+       public int longestUnivaluePath(TreeNode root){
+           if(root == null) return 0;
+           int val = root.val;
+           int result = 0;
+           if(root.left != null && root.left.val == val){
+               result = 1 + dfs(root.left);
+           }
+           if(root.right != null & root.right.val == val){
+               result = 1 + dfs(root.right);
+           }
+           return Math.max(result, Math.max(longestUnivaluePath(root.left), longestUnivaluePath((root.right))));
+       }
+       public int dfs(TreeNode root){
+       
+       }
+   }
 }
