@@ -41,5 +41,9 @@ public class TreeTest {
         System.out.println();
         test.postOrder(sampleTree);
         System.out.println();
+        System.out.println("==============");
+        TreeNode tree = creator.createTree("ABDEGCF", "DBGEACF" );
+        test.postOrder(tree);
+        System.out.println();
     }
 }
