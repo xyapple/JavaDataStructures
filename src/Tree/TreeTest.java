@@ -29,11 +29,28 @@ public class TreeTest {
          postOrder(root.getRight());
          System.out.print(root.getValue());
      }
+    public String postOrder(String preOrder, String inOrder){
+         if(preOrder.isEmpty()){
+             return "";
+         }
+         char rootValue = preOrder.charAt(0);
+         int rootIndex = inOrder.indexOf(rootValue);
+         return
+                 postOrder(
+                         preOrder.substring(1, 1+rootIndex),
+                         inOrder.substring(0, rootIndex) ) +
+                         postOrder(
+                                 preOrder.substring(1+rootIndex),
+                                 inOrder.substring(1+rootIndex)) +
+                rootValue;
+                
+    }
     
     public static void main(String[] args) {
         TreeCreator creator = new TreeCreator();
         TreeTest test = new TreeTest();
-        
+        System.out.println("==============");
+        System.out.println("Sample Tree travel result: ");
         TreeNode sampleTree = creator.createSampleTree();
         test.preOrder(sampleTree);
         System.out.println();
@@ -42,8 +59,12 @@ public class TreeTest {
         test.postOrder(sampleTree);
         System.out.println();
         System.out.println("==============");
+        System.out.println("Generating postOrder by givin preOrder and inOrder");
         TreeNode tree = creator.createTree("ABDEGCF", "DBGEACF" );
         test.postOrder(tree);
         System.out.println();
+        System.out.println("==============");
+        test.postOrder(tree);
+        
     }
 }
