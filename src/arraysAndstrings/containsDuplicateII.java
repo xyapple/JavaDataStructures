@@ -11,17 +11,24 @@ public class containsDuplicateII {
 		isDuplicate(numbers, 2);
 	}
 	public static boolean isDuplicate(int[] nums, int k) {
-		HashSet<Integer> hm = new HashSet<Integer>();
-		for(int i=0; i <nums.length; i++) {
-			if(i > k) {
-				hm.remove(nums[i-k-1]);
-//				System.out.println("This is duplicate");
-			}
-			if(!hm.add(nums[i])) {
-				System.out.println("This is duplicate");
-				return true;
-			}
+		if(nums == null || nums.length == 0) {
+			return false;
 		}
+		HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
+		for(int i = 0; i < nums.length; i++) {
+			if(hm.containsKey(nums[i])) {
+				int j = hm.get(nums[i]);
+				if(i - j <= k) {
+					System.out.println("true");
+					return true;
+				}
+				
+				hm.put(nums[i],i);
+				
+			}			
+			
+		}
+		System.out.println("false");
 		return false;
 	}
 	
