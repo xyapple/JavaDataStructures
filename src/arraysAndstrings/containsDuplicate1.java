@@ -3,9 +3,10 @@ package arraysAndstrings;
 //Given an array of integers, find if the array contains any duplicates. Your function should return true if any value appears at least twice in the array, 
 //and it should return false if every element is distinct.
 
-import java.util.Arrays;
+//Use HashSet
+import java.util.*;
 
-public class containsDuplicate {
+public class containsDuplicate1 {
 
 	public static void main(String[] args) {
 		
@@ -15,19 +16,15 @@ public class containsDuplicate {
 
 	}
 	public static boolean isDuplicate(int[] nums) {
-		//sorted array
-		Arrays.sort(nums);
-		
-		for(int i = 0; i < nums.length-1; i++) {
-			
-			if(nums[i] == nums[i+1]) {
-				System.out.println("This is duplicate");
+		//hashSet array
+		HashSet<Integer> hs = new HashSet<Integer>();
+		for(int n : nums) {
+			if(hs.contains(n)) {
 				return true;
-				
-			} 
-			
+			}
+			hs.add(n);
 		}
-		System.out.println("This is not a duplicate");
+		System.out.println("There is duplicate.");
 		return false;
 	}
 
