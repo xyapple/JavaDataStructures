@@ -16,6 +16,9 @@ public class ToyClass {
 		name = newName;
 		number = newNumber;
 	}
+	public String toString() {
+		return (name + " "+ number);
+	}
 	public static void changer(ToyClass aParameter) {
 		aParameter.name = "Hot Shot";
 		aParameter.number = 42;
