@@ -7,7 +7,7 @@ public class Student extends Person{
 	// The default constructor
 	public Student()
 	{
-		super();
+		super(); //from person
 		program = "Not Specified";
 	}
 	
