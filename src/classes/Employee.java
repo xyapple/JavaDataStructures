@@ -7,6 +7,22 @@ public class Employee {
 	private String name;
 	private int startSalary;
 	private double timeEmployed;
+	
+	/*
+	 * Constructor
+	 * 
+	 */
+	public Employee() {
+	
+	}
+	
+	public Employee(String name, int startSalary, double timeEmployed) {
+	
+		   this.name = name;
+		   this.startSalary = startSalary;
+		   this.timeEmployed = timeEmployed;
+	}
+
 	/**
 	 * @return the name
 	 */
@@ -45,21 +61,32 @@ public class Employee {
 	}
 	
 	//other methods perform operations on Employee data
-	   public double getCurrentSalary()
-	   {
-		   double result;
-		   result = startSalary + startSalary*0.04*timeEmployed;
-	       return result;
-	   }
+   public double getCurrentSalary()
+   {
+	   double result;
+	   result = startSalary + startSalary*0.04*timeEmployed;
+       return result;
+   }
 	   
-	   public void printEmployeeData()
-	   {
-	      JOptionPane.showMessageDialog(null,
-	         "Employee " + name + 
-	         "\n started with a salary of $" + getStartSalary() + 
-	         "\n" + getTimeEmployed() + " years ago and has a" + 
-	         "\n current salary of $" + getCurrentSalary());  
-	   }
+   public void printEmployeeData()
+   {
+      JOptionPane.showMessageDialog(null,
+         "Employee " + name + 
+         "\n started with a salary of $" + getStartSalary() + 
+         "\n" + getTimeEmployed() + " years ago and has a" + 
+         "\n current salary of $" + getCurrentSalary());  
+   }
+   
+   public boolean equals(Employee other)
+   {
+	   if ((this.startSalary == other.startSalary) &&
+			   (this.timeEmployed == other.timeEmployed) )
+		   return true;
+	   else
+		   return false;
+   }
+	   
+	   
 	
 
 	
