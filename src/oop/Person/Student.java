@@ -1,4 +1,4 @@
-package oop;
+package oop.Person;
 
 public class Student extends Person{
 	// instance variable specific to Student

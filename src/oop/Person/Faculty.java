@@ -1,4 +1,4 @@
-package oop;
+package oop.Person;
 
 public class Faculty extends Person {
 	// instance variables specific to Faculty

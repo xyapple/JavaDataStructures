@@ -1,4 +1,4 @@
-package oop;
+package oop.Person;
 
 public class Person {
 	
