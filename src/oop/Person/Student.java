@@ -9,6 +9,7 @@ public class Student extends Person{
 	{
 		super(); //from person
 		program = "Not Specified";
+//		System.out.println("BBBBB");
 	}
 	
 	// Constructor with two arguments
@@ -16,6 +17,7 @@ public class Student extends Person{
 	{
 		super(theName, theId);
 		program = "Not specified";
+		System.out.println("theName");
 	}
 	
 	// Constructor with three arguments

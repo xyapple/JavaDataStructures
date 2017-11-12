@@ -1,6 +1,6 @@
 package oop.Shape;
 
-class Rectangle implements Shape {
+public class Rectangle implements Shape {
 private int width, height;
 	
 	public Rectangle(int w, int h) {

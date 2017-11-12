@@ -11,6 +11,7 @@ public class Person {
 		{
 			name = "Unknown";
 			id = "000-00-0000";
+			System.out.println("AAAA");
 		}
 		
 		// Constructor with two arguments
