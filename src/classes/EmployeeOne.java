@@ -2,6 +2,7 @@ package classes;
 
 public class EmployeeOne {
 	public static void main(String[] args) {
+		
 		//create first employee
 		Employee first = new Employee();
 		first.setName("A");
@@ -21,6 +22,7 @@ public class EmployeeOne {
 						 +second.getName()+ " , "+second.getStartSalary() + " , "+second.getTimeEmployed());
 		
 		System.out.println(first.equals(second));
+		System.out.println(first);
 //		first.printEmployeeData();
 //		second.printEmployeeData();
 		
