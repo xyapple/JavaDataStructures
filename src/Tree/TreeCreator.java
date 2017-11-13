@@ -1,7 +1,5 @@
 package Tree;
 
-import apple.laf.JRSUIUtils;
-
 public class TreeCreator {
     public TreeNode createSampleTree(){
         TreeNode root = new TreeNode('A');
